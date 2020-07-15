@@ -1,0 +1,4 @@
+ TITLE = "Mineral Saturation State" 
+VARIABLES = "X"          "Y"              "Z"            "Forsterite"     "Enstatite(alph" "Anorthite"      "Ferropargasite" "Anhydrite"      "Clinochlore"    "Albite(low)"   
+ ZONE I=           1 , J=           1 , K=           1  F=POINT
+   5.00000000E-01   5.00000000E-01   5.00000000E-01   1.29190801E+01   8.70241594E+00   2.62013848E+01   5.63273131E+01  -4.28932851E-13   5.83651686E+01   1.72636039E+01

@@ -1,0 +1,4 @@
+ TITLE = "Mineral Area" 
+VARIABLES = "X"          "Y"              "Z"            "Forsterite"     "Enstatite(alph" "Anorthite"      "Ferropargasite" "Anhydrite"      "Clinochlore"    "Albite(low)"   
+ ZONE I=           1 , J=           1 , K=           1  F=POINT
+   5.00000000E-01   5.00000000E-01   5.00000000E-01   0.00000000E+00   9.96871459E-02   0.00000000E+00   9.99915947E-02   1.00034554E-01   0.00000000E+00   0.00000000E+00
