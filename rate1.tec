@@ -1,0 +1,4 @@
+ TITLE = "Mineral Rate (mol/m^3/sec)" 
+VARIABLES = "X"          "Y"              "Z"            "Forsterite"     "Enstatite(alph" "Anorthite"      "Ferropargasite" "Anhydrite"      "Clinochlore"    "Albite(low)"   
+ ZONE I=           1 , J=           1 , K=           1  F=POINT
+   5.00000000E-01   5.00000000E-01   5.00000000E-01  -9.99819261E-08  -9.99999828E-11  -8.67349057E-06  -9.99999995E-14  -1.03493198E-15   0.00000000E+00   0.00000000E+00

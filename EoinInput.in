@@ -18,19 +18,20 @@ graphics                     tecplot
 END
  
 OUTPUT
-spatial_profile              1000 10000 50000 100000 
+spatial_profile              1.0  2.0   3.5
+!1000 10000 50000 100000 
 !500000 750000 1000000 
 time_series                  output.out 1 
-time_series_print            pH Ca++ K+ SO4-- Mg++ CO2(aq)
+time_series_print            pH   Ca++    SO4--   Mg++  SiO2(aq)
 time_series_interval         1
 END
 
 CONDITION                    Seawater  
 temperature                  200.0
 pH                           8.15  
-CO2(aq)                      4.75e-03
+CO2(aq)                      9.5e-6
 O2(aq)                       180.0e-06 
-NH4+                         1.480e-09
+!NH4+                         1.480e-09
 Mg++                         5.110e-2
 Al+++                        0.037e-6   
 Fe++                         2.600e-8
@@ -38,6 +39,7 @@ Fe+++                        1.000e-13
 Ca++                         10.4e-03
 K+                           1.200e-02
 SO4--                        28E-03
+SiO2(aq)                     0.17E-3
 B(OH)3(aq)                   0.400e-03
 HPO4--                       1.700e-06
 H2S(aq)                      1.000e-15
@@ -51,21 +53,22 @@ Forsterite                   0.28   0.1
 Enstatite(alpha)             0.21   0.1 
 Anorthite                    0.14   0.1
 Ferropargasite               0.07   0.1
-Anhydrite                    0.2  0.1
+Anhydrite                    0.2    0.1
+Clinochlore                  1.0E-10
+Albite(low)                  1.0E-10
 END
 
 MINERALS
-Forsterite                   -rate -9.0
+Forsterite                   -rate -6.0
 Enstatite(alpha)             -rate -9.0
-Anorthite                    -rate -9.0
+Anorthite                    -rate -3.0
 Ferropargasite               -rate -12.0
-Anhydrite                     -rate -9.0
+Anhydrite                    -rate -3.0
+Clinochlore                  -rate -3.0
+Albite(low)                  -rate -3.0
 END
 
 AQUEOUS_KINETICS
-END
-
-ISOTOPES
 END
  
 POROSITY
@@ -79,7 +82,7 @@ END
 !END  
 
 DISCRETIZATION
-xzones                       1 1
+xzones                       1    1
 END
  
 INITIAL_CONDITIONS
@@ -105,7 +108,7 @@ K+
 !H2S(aq)
 !H2S34(aq)
 Na+
-!SiO2(aq)
+SiO2(aq)
 SO4--
 !S34O4--
 O2(aq)
@@ -149,6 +152,7 @@ FeSO4(aq)
 !FeS34O4(aq)    
 OH-     
 HS-  
+H2S(aq)
 !HS34-  
 H2PO4- 
 H3PO4(aq)
@@ -184,16 +188,17 @@ S--
 !S34--
 !BO2- 
 !MgB(OH)4+
+
 END
 
 GASES
 CO2(g)
 END
  
-BOUNDARY_CONDITIONS
-!X_begin   Seawater     Dirichlet
-!X_end     Seawater     flux
-END
+!BOUNDARY_CONDITIONS
+!x_begin   Seawater     Dirichlet
+!x_end     Seawater     flux
+!END
  
 !TRANSPORT
 !distance_units centimeters

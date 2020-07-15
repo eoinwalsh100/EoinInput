@@ -1,0 +1,4 @@
+ TITLE = "Mineral Volumes" 
+VARIABLES = "X"          "Y"              "Z"            "Forsterite"     "Enstatite(alph" "Anorthite"      "Ferropargasite" "Anhydrite"      "Clinochlore"    "Albite(low)"   
+ ZONE I=           1 , J=           1 , K=           1  F=POINT
+   5.00000000E-01   5.00000000E-01   5.00000000E-01   2.79516897E-01   2.09999655E-01   0.00000000E+00   6.99999969E-02   2.00110725E-01   0.00000000E+00   0.00000000E+00
