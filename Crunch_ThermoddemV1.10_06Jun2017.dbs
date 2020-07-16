@@ -1848,7 +1848,7 @@ Alamosite
 +----------------------------------------------------
 Albite(low)
   label = default
-  type = irreversible
+  type = tst
   rate(25C) = -3.00
   activation = 0.0  (kcal / mole)
   dependence :
@@ -2730,7 +2730,7 @@ Claudetite
 +----------------------------------------------------
 Clinochlore
   label = default
-  type = irreversible
+  type = tst
   rate(25C) = -3.00
   activation = 0.0  (kcal / mole)
   dependence :
@@ -3192,7 +3192,7 @@ Edenite(alpha)
 +----------------------------------------------------
 Enstatite(alpha)
   label = default
-  type = irreversible
+  type = tst
   rate(25C) = -3.00
   activation = 0.0  (kcal / mole)
   dependence :
@@ -3402,7 +3402,7 @@ Ferrohexahydrite
 +----------------------------------------------------
 Ferropargasite
   label = default
-  type = irreversible
+  type = tst
   rate(25C) = -3.00
   activation = 0.0  (kcal / mole)
   dependence :
@@ -3486,7 +3486,7 @@ Fluorphlogopite
 +----------------------------------------------------
 Forsterite
   label = default
-  type = irreversible
+  type = tst
   rate(25C) = -3.00
   activation = 0.0  (kcal / mole)
   dependence :
