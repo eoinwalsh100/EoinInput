@@ -11,20 +11,19 @@ debye-huckel                 true
 database_sweep               false
 speciate_only                false
 screen_output                10
-hindmarsh                    false
+hindmarsh                    true
 BurchRateLaw                 false
 database                     Crunch_ThermoddemV1.10_06Jun2017.dbs
 graphics                     tecplot
 END
  
 OUTPUT
-time_units                   years
 spatial_profile              1.0  2.0   3.5
 !1000 10000 50000 100000 
 !500000 750000 1000000 
 time_series                  output.out 1 
 time_series_print            pH  Ca++    SO4--   Mg++  H4SiO4(aq)
-!time_series_interval         1
+time_series_interval         1
 END
 
 CONDITION                    Seawater  
@@ -55,18 +54,18 @@ Enstatite(alpha)             0.21   0.1
 Anorthite                    7e-4   0.1
 Ferropargasite               0.07   0.1
 Anhydrite                    0.2    0.1
-Clinochlore                  7.0E-2   0.1
+Clinochlore                  1.0E-10   0.1
 Albite(low)                  0.13   0.1
 END
 
 MINERALS
-Forsterite                   -rate -12.0
-Enstatite(alpha)             -rate -12.0
-Anorthite                    -rate -11.0
+Forsterite                   -rate -6.0
+Enstatite(alpha)             -rate -9.0
+Anorthite                    -rate -6.0
 Ferropargasite               -rate -12.0
-Anhydrite                    -rate -11.0
-Clinochlore                  -rate -11.0
-Albite(low)                  -rate -11.0
+Anhydrite                    -rate -5.0
+Clinochlore                  -rate -6.0
+Albite(low)                  -rate -6.0
 END
 
 AQUEOUS_KINETICS
@@ -83,16 +82,15 @@ END
 !END  
 
 DISCRETIZATION
-xzones                       35    100
+xzones                       1    1
 END
  
 INITIAL_CONDITIONS
-Seawater                     1-35
+Seawater                     1-1
 END
  
 TEMPERATURE
-!set_temperature           200.0
-temperature_gradient     0.0571
+set_temperature              200.0
 END
  
 PRIMARY_SPECIES
@@ -195,22 +193,22 @@ GASES
 CO2(g)
 END
  
-BOUNDARY_CONDITIONS
-x_begin   Seawater     Dirichlet
-x_end     Seawater     flux
-END
+!BOUNDARY_CONDITIONS
+!x_begin   Seawater     Dirichlet
+!x_end     Seawater     flux
+!END
  
-TRANSPORT
-distance_units centimeters
-time_units  seconds
-calculate_diffusion 0.919e-05
+!TRANSPORT
+!distance_units centimeters
+!time_units  seconds
+!calculate_diffusion 0.919e-05
 !diffusion_activation  4.5
 !cementation_exponent  2.0
-END
+!END
  
-FLOW
-distance_units     meters
-time_units         years
-constant_flow      0.0571
-END
+!FLOW
+!distance_units     meters
+!time_units         years
+!constant_flow      0.000015
+!END
  
