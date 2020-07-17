@@ -1,0 +1,1432 @@
+# Time          7.0000E+00
+
+ **************************************************************
+ ------> GRID LOCATION:     1:  1:  1
+
+  Temperature (C)    =     34.992
+  Porosity           =      0.081
+  Liquid Saturation  =      1.000
+  Liquid Density     =    994.066
+  Ionic Strength     =      0.709
+  Solution pH        =      7.362
+  Solution pe and Eh require H2(g) be included
+  Total Charge       =  7.849E-06
+
+ Total Aqueous Concentrations of Primary Species 
+ --------------------------------------- 
+
+   Species              Molality       Type 
+ H+                  -4.5515E-03     Aqueous      
+ Al+++                1.3220E-15     Aqueous      
+ CO2(aq)              4.7500E-03     Aqueous      
+ Mg++                 3.3619E-02     Aqueous      
+ Ca++                 3.7632E-02     Aqueous      
+ Fe++                 6.2938E-05     Aqueous      
+ Fe+++                4.7562E-12     Aqueous      
+ Ba++                 2.0000E-07     Aqueous      
+ Sr++                 9.0000E-06     Aqueous      
+ Cl-                  5.4815E-01     Aqueous      
+ K+                   1.2000E-02     Aqueous      
+ Na+                  4.9234E-01     Aqueous      
+ SO4--                4.7113E-02     Aqueous      
+ O2(aq)               1.8000E-04     Aqueous      
+ B(OH)3(aq)           4.0000E-04     Aqueous      
+ HPO4--               1.7000E-06     Aqueous      
+ NO3-                 3.9000E-05     Aqueous      
+ H4SiO4(aq)           4.7829E-02     Aqueous      
+
+ Concentrations of Individual Species, Exchangers, and Surface Complexes 
+ ----------------------------------------------------------------------- 
+
+                           Log        Log                 Concentration     
+ Species              Molality  Activity      Molality    Mol/m^3 blk      Activity   Type
+
+                           Log        Log                                 Activity
+ Species              Molality   Activity      Molality      Activity   Coefficient    Type
+  H+                    -7.267     -7.362     5.407E-08     4.349E-08     8.043E-01  Aqueous 
+  Al+++                -21.616    -22.705     2.422E-22     1.971E-23     8.138E-02  Aqueous 
+  CO2(aq)               -3.645     -3.574     2.265E-04     2.667E-04     1.177E+00  Aqueous 
+  Mg++                  -1.473     -2.064     3.362E-02     8.625E-03     2.566E-01  Aqueous 
+  Ca++                  -1.521     -2.144     3.011E-02     7.171E-03     2.382E-01  Aqueous 
+  Fe++                  -4.375     -4.998     4.221E-05     1.005E-05     2.382E-01  Aqueous 
+  Fe+++                -11.323    -12.412     4.756E-12     3.871E-13     8.138E-02  Aqueous 
+  Ba++                  -6.721     -7.420     1.900E-07     3.800E-08     2.000E-01  Aqueous 
+  Sr++                  -5.138     -5.837     7.286E-06     1.457E-06     2.000E-01  Aqueous 
+  Cl-                   -0.263     -0.471     5.452E-01     3.380E-01     6.199E-01  Aqueous 
+  K+                    -1.958     -2.166     1.101E-02     6.823E-03     6.199E-01  Aqueous 
+  Na+                   -0.322     -0.493     4.763E-01     3.212E-01     6.743E-01  Aqueous 
+  SO4--                 -1.594     -2.389     2.544E-02     4.080E-03     1.604E-01  Aqueous 
+  O2(aq)                -3.745     -3.674     1.800E-04     2.119E-04     1.177E+00  Aqueous 
+  B(OH)3(aq)            -3.398     -3.327     4.000E-04     4.709E-04     1.177E+00  Aqueous 
+  HPO4--                -6.087     -6.882     8.178E-07     1.312E-07     1.604E-01  Aqueous 
+  NO3-                  -4.409     -4.617     3.900E-05     2.418E-05     6.199E-01  Aqueous 
+  H4SiO4(aq)            -1.320     -1.249     4.783E-02     5.631E-02     1.177E+00  Aqueous 
+  HNO3(aq)             -13.256    -13.185     5.546E-14     6.529E-14     1.177E+00  Aqueous 
+  Al(OH)2+             -17.762    -17.936     1.729E-18     1.159E-18     6.703E-01  Aqueous 
+  AlO2-                -14.912    -15.100     1.225E-15     7.951E-16     6.488E-01  Aqueous 
+  AlOH++               -19.363    -20.007     4.335E-20     9.835E-21     2.269E-01  Aqueous 
+  BaHCO3+               -8.614     -8.787     2.435E-09     1.632E-09     6.703E-01  Aqueous 
+  BaCl+                 -8.128     -8.302     7.447E-09     4.992E-09     6.703E-01  Aqueous 
+  BaCO3(aq)            -10.142    -10.071     7.209E-11     8.486E-11     1.177E+00  Aqueous 
+  BaOH+                -12.884    -13.058     1.305E-13     8.750E-14     6.703E-01  Aqueous 
+  HCO3-                 -2.347     -2.518     4.496E-03     3.032E-03     6.743E-01  Aqueous 
+  CO3--                 -4.659     -5.403     2.192E-05     3.952E-06     1.803E-01  Aqueous 
+  CaCl+                 -2.689     -2.863     2.046E-03     1.371E-03     6.703E-01  Aqueous 
+  CaCl2(aq)             -3.828     -3.757     1.486E-04     1.749E-04     1.177E+00  Aqueous 
+  CaOH+                 -6.952     -7.126     1.117E-07     7.489E-08     6.703E-01  Aqueous 
+  CaSO4(aq)             -2.274     -2.203     5.326E-03     6.270E-03     1.177E+00  Aqueous 
+  FeCl+                 -5.330     -5.504     4.676E-06     3.134E-06     6.703E-01  Aqueous 
+  FeCl2(aq)             -7.692     -7.621     2.032E-08     2.392E-08     1.177E+00  Aqueous 
+  FeOH+                 -6.648     -6.822     2.247E-07     1.506E-07     6.703E-01  Aqueous 
+  FeSO4(aq)             -4.973     -4.902     1.065E-05     1.254E-05     1.177E+00  Aqueous 
+  OH-                   -6.134     -6.325     7.350E-07     4.735E-07     6.443E-01  Aqueous 
+  HS-                 -135.551   -135.742     2.812-136     1.812-136     6.443E-01  Aqueous 
+  H2S(aq)             -136.309   -136.238     4.910-137     5.780-137     1.177E+00  Aqueous 
+  H2PO4-                -6.879     -7.050     1.321E-07     8.910E-08     6.743E-01  Aqueous 
+  H3PO4(aq)            -12.295    -12.224     5.067E-13     5.965E-13     1.177E+00  Aqueous 
+  HAlO2(aq)            -16.284    -16.213     5.196E-17     6.117E-17     1.177E+00  Aqueous 
+  HSO4-                 -7.450     -7.638     3.548E-08     2.302E-08     6.488E-01  Aqueous 
+  KCl(aq)               -3.184     -3.113     6.550E-04     7.711E-04     1.177E+00  Aqueous 
+  KOH(aq)               -8.960     -8.889     1.096E-09     1.290E-09     1.177E+00  Aqueous 
+  KSO4-                 -3.469     -3.657     3.393E-04     2.202E-04     6.488E-01  Aqueous 
+  NH3(aq)              -64.588    -64.517     2.583E-65     3.041E-65     1.177E+00  Aqueous 
+  NaAlO2(aq)           -16.368    -16.297     4.282E-17     5.041E-17     1.177E+00  Aqueous 
+  NaOH(aq)              -7.651     -7.580     2.233E-08     2.629E-08     1.177E+00  Aqueous 
+  NaSO4-                -1.796     -1.960     1.599E-02     1.097E-02     6.860E-01  Aqueous 
+  H2(aq)               -42.734    -42.664     1.843E-43     2.170E-43     1.177E+00  Aqueous 
+  CaHPO4(aq)            -6.177     -6.106     6.650E-07     7.829E-07     1.177E+00  Aqueous 
+  CaPO4-                -7.179     -7.367     6.627E-08     4.300E-08     6.488E-01  Aqueous 
+  FeCO3(aq)             -5.288     -5.217     5.153E-06     6.067E-06     1.177E+00  Aqueous 
+  FeH2PO4+              -9.181     -9.354     6.597E-10     4.422E-10     6.703E-01  Aqueous 
+  FeHPO4(aq)            -8.365     -8.294     4.319E-09     5.085E-09     1.177E+00  Aqueous 
+  FePO4-                -8.763     -8.951     1.726E-09     1.120E-09     6.488E-01  Aqueous 
+  KHPO4-                -7.924     -8.111     1.192E-08     7.737E-09     6.488E-01  Aqueous 
+  PO4---                -9.964    -11.790     1.086E-10     1.622E-12     1.494E-02  Aqueous 
+  S--                 -144.375   -145.074     4.221-145     8.442-146     2.000E-01  Aqueous 
+  Sr(CO3)(aq)           -8.385     -8.314     4.121E-09     4.851E-09     1.177E+00  Aqueous 
+  SrHCO3+               -6.854     -7.028     1.400E-07     9.384E-08     6.703E-01  Aqueous 
+  SrCl+                 -6.319     -6.493     4.793E-07     3.213E-07     6.703E-01  Aqueous 
+  SrOH+                -11.124    -11.298     7.513E-12     5.036E-12     6.703E-01  Aqueous 
+  SrSO4(aq)             -5.962     -5.891     1.091E-06     1.284E-06     1.177E+00  Aqueous 
+
+  ****** Partial pressure of gases (bars) *****
+
+ CO2(g)               1.0139E-02
+ O2(g)                1.9465E-01
+
+  ***** Saturation state of minerals (log[Q/K] *****
+
+  Forsterite               -3.2931
+  Enstatite(alpha)          0.1094
+  Anorthite               -13.6368
+  Ferropargasite          -17.5634
+  Anhydrite                 0.0068
+  Clinochlore               0.0218
+  Albite(low)              -0.0239
+  Fayalite                  0.0799
+  Epidote                   0.0000
+  Kaolinite                -9.2497
+  Muscovite(ordered)      -10.2719
+
+
+  ***** Volume of minerals added or subtracted *****
+
+ Forsterite         -8.933980855E-06
+ Enstatite(alpha)   -2.819371948E-06
+ Anorthite          -2.204626130E-05
+ Ferropargasite     -6.177056324E-05
+ Anhydrite          -7.206871530E-05
+ Clinochlore         2.506791524E-04
+ Albite(low)        -1.272150644E-04
+ Fayalite            2.034358082E-05
+ Epidote            -2.436217011E-14
+ Kaolinite          -1.000000000E-10
+ Muscovite(ordered) -1.000000000E-10
+
+ **************************************************************
+ ------> GRID LOCATION:     2:  1:  1
+
+  Temperature (C)    =     54.977
+  Porosity           =      0.081
+  Liquid Saturation  =      1.000
+  Liquid Density     =    985.727
+  Ionic Strength     =      0.682
+  Solution pH        =      6.825
+  Solution pe and Eh require H2(g) be included
+  Total Charge       = -7.868E-06
+
+ Total Aqueous Concentrations of Primary Species 
+ --------------------------------------- 
+
+   Species              Molality       Type 
+ H+                  -4.1034E-03     Aqueous      
+ Al+++                1.3169E-14     Aqueous      
+ CO2(aq)              4.7506E-03     Aqueous      
+ Mg++                 3.2919E-02     Aqueous      
+ Ca++                 2.7772E-02     Aqueous      
+ Fe++                 1.1713E-04     Aqueous      
+ Fe+++                1.2344E-11     Aqueous      
+ Ba++                 2.0002E-07     Aqueous      
+ Sr++                 9.0011E-06     Aqueous      
+ Cl-                  5.4822E-01     Aqueous      
+ K+                   1.2001E-02     Aqueous      
+ Na+                  4.9299E-01     Aqueous      
+ SO4--                3.7137E-02     Aqueous      
+ O2(aq)               1.8002E-04     Aqueous      
+ B(OH)3(aq)           4.0005E-04     Aqueous      
+ HPO4--               1.7002E-06     Aqueous      
+ NO3-                 3.9005E-05     Aqueous      
+ H4SiO4(aq)           4.9439E-02     Aqueous      
+
+ Concentrations of Individual Species, Exchangers, and Surface Complexes 
+ ----------------------------------------------------------------------- 
+
+                           Log        Log                 Concentration     
+ Species              Molality  Activity      Molality    Mol/m^3 blk      Activity   Type
+
+                           Log        Log                                 Activity
+ Species              Molality   Activity      Molality      Activity   Coefficient    Type
+  H+                    -6.727     -6.825     1.875E-07     1.495E-07     7.975E-01  Aqueous 
+  Al+++                -20.312    -21.434     4.872E-21     3.683E-22     7.559E-02  Aqueous 
+  CO2(aq)               -3.181     -3.113     6.587E-04     7.707E-04     1.170E+00  Aqueous 
+  Mg++                  -1.483     -2.091     3.292E-02     8.113E-03     2.465E-01  Aqueous 
+  Ca++                  -1.653     -2.295     2.222E-02     5.075E-03     2.284E-01  Aqueous 
+  Fe++                  -4.108     -4.749     7.804E-05     1.782E-05     2.284E-01  Aqueous 
+  Fe+++                -10.909    -12.030     1.234E-11     9.330E-13     7.559E-02  Aqueous 
+  Ba++                  -6.731     -7.450     1.858E-07     3.548E-08     1.910E-01  Aqueous 
+  Sr++                  -5.144     -5.863     7.171E-06     1.369E-06     1.910E-01  Aqueous 
+  Cl-                   -0.263     -0.477     5.453E-01     3.332E-01     6.110E-01  Aqueous 
+  K+                    -1.961     -2.175     1.094E-02     6.685E-03     6.110E-01  Aqueous 
+  Na+                   -0.319     -0.495     4.802E-01     3.197E-01     6.658E-01  Aqueous 
+  SO4--                 -1.689     -2.507     2.045E-02     3.115E-03     1.523E-01  Aqueous 
+  O2(aq)                -3.745     -3.677     1.800E-04     2.106E-04     1.170E+00  Aqueous 
+  B(OH)3(aq)            -3.398     -3.330     4.000E-04     4.680E-04     1.170E+00  Aqueous 
+  HPO4--                -6.169     -6.986     6.776E-07     1.032E-07     1.523E-01  Aqueous 
+  NO3-                  -4.409     -4.623     3.900E-05     2.383E-05     6.110E-01  Aqueous 
+  H4SiO4(aq)            -1.306     -1.238     4.944E-02     5.784E-02     1.170E+00  Aqueous 
+  HNO3(aq)             -12.517    -12.449     3.038E-13     3.555E-13     1.170E+00  Aqueous 
+  Al(OH)2+             -16.384    -16.563     4.131E-17     2.734E-17     6.617E-01  Aqueous 
+  AlO2-                -13.929    -14.123     1.178E-14     7.540E-15     6.401E-01  Aqueous 
+  AlOH++               -18.072    -18.735     8.472E-19     1.841E-19     2.173E-01  Aqueous 
+  BaHCO3+               -8.426     -8.606     3.747E-09     2.479E-09     6.617E-01  Aqueous 
+  BaCl+                 -7.981     -8.160     1.045E-08     6.915E-09     6.617E-01  Aqueous 
+  BaCO3(aq)            -10.432    -10.363     3.701E-11     4.330E-11     1.170E+00  Aqueous 
+  BaOH+                -12.561    -12.740     2.749E-13     1.819E-13     6.617E-01  Aqueous 
+  HCO3-                 -2.389     -2.566     4.081E-03     2.717E-03     6.658E-01  Aqueous 
+  CO3--                 -5.121     -5.887     7.560E-06     1.298E-06     1.717E-01  Aqueous 
+  CaCl+                 -2.718     -2.897     1.913E-03     1.266E-03     6.617E-01  Aqueous 
+  CaCl2(aq)             -3.962     -3.894     1.091E-04     1.277E-04     1.170E+00  Aqueous 
+  CaOH+                 -6.842     -7.022     1.438E-07     9.515E-08     6.617E-01  Aqueous 
+  CaSO4(aq)             -2.453     -2.385     3.526E-03     4.125E-03     1.170E+00  Aqueous 
+  FeCl+                 -4.810     -4.990     1.548E-05     1.024E-05     6.617E-01  Aqueous 
+  FeCl2(aq)             -7.267     -7.199     5.410E-08     6.330E-08     1.170E+00  Aqueous 
+  FeOH+                 -6.358     -6.537     4.389E-07     2.905E-07     6.617E-01  Aqueous 
+  FeSO4(aq)             -4.705     -4.637     1.970E-05     2.305E-05     1.170E+00  Aqueous 
+  OH-                   -6.131     -6.328     7.398E-07     4.701E-07     6.355E-01  Aqueous 
+  HS-                 -126.028   -126.225     9.377-127     5.959-127     6.355E-01  Aqueous 
+  H2S(aq)             -126.428   -126.360     3.732-127     4.367-127     1.170E+00  Aqueous 
+  H2PO4-                -6.434     -6.611     3.678E-07     2.449E-07     6.658E-01  Aqueous 
+  H3PO4(aq)            -11.200    -11.132     6.303E-12     7.374E-12     1.170E+00  Aqueous 
+  HAlO2(aq)            -15.099    -15.031     7.954E-16     9.306E-16     1.170E+00  Aqueous 
+  HSO4-                 -6.737     -6.931     1.833E-07     1.173E-07     6.401E-01  Aqueous 
+  KCl(aq)               -3.121     -3.053     7.560E-04     8.845E-04     1.170E+00  Aqueous 
+  KOH(aq)               -8.833     -8.765     1.468E-09     1.718E-09     1.170E+00  Aqueous 
+  KSO4-                 -3.517     -3.710     3.043E-04     1.948E-04     6.401E-01  Aqueous 
+  NH3(aq)              -59.950    -59.882     1.122E-60     1.313E-60     1.170E+00  Aqueous 
+  NaAlO2(aq)           -15.258    -15.189     5.525E-16     6.464E-16     1.170E+00  Aqueous 
+  NaOH(aq)              -7.627     -7.559     2.358E-08     2.759E-08     1.170E+00  Aqueous 
+  NaSO4-                -1.892     -2.061     1.284E-02     8.698E-03     6.776E-01  Aqueous 
+  H2(aq)               -39.845    -39.776     1.430E-40     1.673E-40     1.170E+00  Aqueous 
+  CaHPO4(aq)            -6.225     -6.157     5.955E-07     6.967E-07     1.170E+00  Aqueous 
+  CaPO4-                -7.542     -7.736     2.872E-08     1.838E-08     6.401E-01  Aqueous 
+  FeCO3(aq)             -5.468     -5.400     3.402E-06     3.980E-06     1.170E+00  Aqueous 
+  FeH2PO4+              -8.487     -8.667     3.256E-09     2.155E-09     6.617E-01  Aqueous 
+  FeHPO4(aq)            -8.211     -8.142     6.159E-09     7.205E-09     1.170E+00  Aqueous 
+  FePO4-                -9.142     -9.336     7.210E-10     4.615E-10     6.401E-01  Aqueous 
+  KHPO4-                -7.690     -7.883     2.043E-08     1.308E-08     6.401E-01  Aqueous 
+  PO4---               -10.458    -12.334     3.482E-11     4.636E-13     1.331E-02  Aqueous 
+  S--                 -134.658   -135.377     2.199-135     4.200-136     1.910E-01  Aqueous 
+  Sr(CO3)(aq)           -8.621     -8.553     2.392E-09     2.798E-09     1.170E+00  Aqueous 
+  SrHCO3+               -6.605     -6.785     2.482E-07     1.642E-07     6.617E-01  Aqueous 
+  SrCl+                 -6.224     -6.404     5.965E-07     3.947E-07     6.617E-01  Aqueous 
+  SrOH+                -10.841    -11.021     1.441E-11     9.534E-12     6.617E-01  Aqueous 
+  SrSO4(aq)             -6.008     -5.939     9.828E-07     1.150E-06     1.170E+00  Aqueous 
+
+  ****** Partial pressure of gases (bars) *****
+
+ CO2(g)               4.3317E-02
+ O2(g)                2.3636E-01
+
+  ***** Saturation state of minerals (log[Q/K] *****
+
+  Forsterite               -3.2327
+  Enstatite(alpha)         -0.0052
+  Anorthite               -12.3275
+  Ferropargasite          -16.2990
+  Anhydrite                 0.0082
+  Clinochlore               0.0221
+  Albite(low)              -0.0244
+  Fayalite                  0.0807
+  Epidote                   0.0000
+  Kaolinite                -8.1622
+  Muscovite(ordered)       -9.1081
+
+
+  ***** Volume of minerals added or subtracted *****
+
+ Forsterite         -9.663525759E-05
+ Enstatite(alpha)   -3.764008482E-06
+ Anorthite          -2.204626130E-05
+ Ferropargasite     -6.177056324E-05
+ Anhydrite          -3.305630095E-05
+ Clinochlore         2.534285025E-04
+ Albite(low)        -1.298171182E-04
+ Fayalite            2.025064281E-05
+ Epidote            -1.130140308E-13
+ Kaolinite          -1.000000000E-10
+ Muscovite(ordered) -1.000000000E-10
+
+ **************************************************************
+ ------> GRID LOCATION:     3:  1:  1
+
+  Temperature (C)    =     74.963
+  Porosity           =      0.081
+  Liquid Saturation  =      1.000
+  Liquid Density     =    974.827
+  Ionic Strength     =      0.658
+  Solution pH        =      6.359
+  Solution pe and Eh require H2(g) be included
+  Total Charge       = -5.994E-08
+
+ Total Aqueous Concentrations of Primary Species 
+ --------------------------------------- 
+
+   Species              Molality       Type 
+ H+                  -3.1767E-03     Aqueous      
+ Al+++                1.0669E-13     Aqueous      
+ CO2(aq)              4.7507E-03     Aqueous      
+ Mg++                 3.1963E-02     Aqueous      
+ Ca++                 2.0059E-02     Aqueous      
+ Fe++                 2.1602E-04     Aqueous      
+ Fe+++                2.8609E-11     Aqueous      
+ Ba++                 2.0003E-07     Aqueous      
+ Sr++                 9.0014E-06     Aqueous      
+ Cl-                  5.4824E-01     Aqueous      
+ K+                   1.2002E-02     Aqueous      
+ Na+                  4.9363E-01     Aqueous      
+ SO4--                2.9333E-02     Aqueous      
+ O2(aq)               1.8003E-04     Aqueous      
+ B(OH)3(aq)           4.0006E-04     Aqueous      
+ HPO4--               1.7003E-06     Aqueous      
+ NO3-                 3.9006E-05     Aqueous      
+ H4SiO4(aq)           5.0901E-02     Aqueous      
+
+ Concentrations of Individual Species, Exchangers, and Surface Complexes 
+ ----------------------------------------------------------------------- 
+
+                           Log        Log                 Concentration     
+ Species              Molality  Activity      Molality    Mol/m^3 blk      Activity   Type
+
+                           Log        Log                                 Activity
+ Species              Molality   Activity      Molality      Activity   Coefficient    Type
+  H+                    -6.256     -6.359     5.549E-07     4.379E-07     7.891E-01  Aqueous 
+  Al+++                -19.158    -20.319     6.946E-20     4.798E-21     6.907E-02  Aqueous 
+  CO2(aq)               -2.802     -2.736     1.578E-03     1.836E-03     1.164E+00  Aqueous 
+  Mg++                  -1.495     -2.125     3.196E-02     7.497E-03     2.346E-01  Aqueous 
+  Ca++                  -1.798     -2.462     1.593E-02     3.454E-03     2.168E-01  Aqueous 
+  Fe++                  -3.877     -4.541     1.328E-04     2.880E-05     2.168E-01  Aqueous 
+  Fe+++                -10.543    -11.704     2.861E-11     1.976E-12     6.907E-02  Aqueous 
+  Ba++                  -6.744     -7.488     1.803E-07     3.251E-08     1.803E-01  Aqueous 
+  Sr++                  -5.153     -5.897     7.029E-06     1.267E-06     1.803E-01  Aqueous 
+  Cl-                   -0.263     -0.485     5.453E-01     3.270E-01     5.997E-01  Aqueous 
+  K+                    -1.965     -2.187     1.084E-02     6.501E-03     5.997E-01  Aqueous 
+  Na+                   -0.316     -0.500     4.829E-01     3.164E-01     6.551E-01  Aqueous 
+  SO4--                 -1.793     -2.638     1.610E-02     2.301E-03     1.429E-01  Aqueous 
+  O2(aq)                -3.745     -3.679     1.800E-04     2.095E-04     1.164E+00  Aqueous 
+  B(OH)3(aq)            -3.398     -3.332     4.001E-04     4.655E-04     1.164E+00  Aqueous 
+  HPO4--                -6.339     -7.184     4.577E-07     6.540E-08     1.429E-01  Aqueous 
+  NO3-                  -4.409     -4.631     3.901E-05     2.339E-05     5.997E-01  Aqueous 
+  H4SiO4(aq)            -1.293     -1.227     5.090E-02     5.923E-02     1.164E+00  Aqueous 
+  HNO3(aq)             -11.853    -11.788     1.401E-12     1.631E-12     1.164E+00  Aqueous 
+  Al(OH)2+             -15.133    -15.320     7.355E-16     4.788E-16     6.510E-01  Aqueous 
+  AlO2-                -13.044    -13.245     9.047E-14     5.691E-14     6.291E-01  Aqueous 
+  AlOH++               -16.904    -17.590     1.247E-17     2.569E-18     2.060E-01  Aqueous 
+  BaHCO3+               -8.309     -8.495     4.911E-09     3.197E-09     6.510E-01  Aqueous 
+  BaCl+                 -7.830     -8.017     1.478E-08     9.624E-09     6.510E-01  Aqueous 
+  BaCO3(aq)            -10.775    -10.709     1.679E-11     1.954E-11     1.164E+00  Aqueous 
+  BaOH+                -12.294    -12.480     5.085E-13     3.310E-13     6.510E-01  Aqueous 
+  HCO3-                 -2.499     -2.683     3.168E-03     2.076E-03     6.551E-01  Aqueous 
+  CO3--                 -5.628     -6.420     2.353E-06     3.804E-07     1.617E-01  Aqueous 
+  CaCl+                 -2.742     -2.929     1.809E-03     1.178E-03     6.510E-01  Aqueous 
+  CaCl2(aq)             -4.057     -3.991     8.774E-05     1.021E-04     1.164E+00  Aqueous 
+  CaOH+                 -6.775     -6.962     1.678E-07     1.092E-07     6.510E-01  Aqueous 
+  CaSO4(aq)             -2.651     -2.585     2.233E-03     2.599E-03     1.164E+00  Aqueous 
+  FeCl+                 -4.325     -4.512     4.730E-05     3.079E-05     6.510E-01  Aqueous 
+  FeCl2(aq)             -6.846     -6.780     1.426E-07     1.660E-07     1.164E+00  Aqueous 
+  FeOH+                 -6.100     -6.287     7.939E-07     5.169E-07     6.510E-01  Aqueous 
+  FeSO4(aq)             -4.482     -4.416     3.299E-05     3.839E-05     1.164E+00  Aqueous 
+  OH-                   -6.150     -6.354     7.086E-07     4.425E-07     6.244E-01  Aqueous 
+  HS-                 -117.534   -117.739     2.921-118     1.824-118     6.244E-01  Aqueous 
+  H2S(aq)             -117.587   -117.521     2.588-118     3.012-118     1.164E+00  Aqueous 
+  H2PO4-                -6.120     -6.304     7.577E-07     4.964E-07     6.551E-01  Aqueous 
+  H3PO4(aq)            -10.302    -10.237     4.984E-11     5.799E-11     1.164E+00  Aqueous 
+  HAlO2(aq)            -14.012    -13.946     9.725E-15     1.132E-14     1.164E+00  Aqueous 
+  HSO4-                 -6.097     -6.298     8.001E-07     5.033E-07     6.291E-01  Aqueous 
+  KCl(aq)               -3.053     -2.987     8.855E-04     1.030E-03     1.164E+00  Aqueous 
+  KOH(aq)               -8.733     -8.667     1.851E-09     2.154E-09     1.164E+00  Aqueous 
+  KSO4-                 -3.559     -3.760     2.762E-04     1.738E-04     6.291E-01  Aqueous 
+  NH3(aq)              -55.771    -55.706     1.693E-56     1.970E-56     1.164E+00  Aqueous 
+  NaAlO2(aq)           -14.241    -14.175     5.746E-15     6.687E-15     1.164E+00  Aqueous 
+  NaOH(aq)              -7.599     -7.533     2.518E-08     2.930E-08     1.164E+00  Aqueous 
+  NaSO4-                -1.971     -2.147     1.069E-02     7.128E-03     6.671E-01  Aqueous 
+  H2(aq)               -37.253    -37.188     5.579E-38     6.492E-38     1.164E+00  Aqueous 
+  CaHPO4(aq)            -6.369     -6.303     4.281E-07     4.981E-07     1.164E+00  Aqueous 
+  CaPO4-                -7.954     -8.155     1.111E-08     6.992E-09     6.291E-01  Aqueous 
+  FeCO3(aq)             -5.710     -5.644     1.950E-06     2.269E-06     1.164E+00  Aqueous 
+  FeH2PO4+              -7.965     -8.151     1.084E-08     7.059E-09     6.510E-01  Aqueous 
+  FeHPO4(aq)            -8.159     -8.094     6.927E-09     8.061E-09     1.164E+00  Aqueous 
+  FePO4-                -9.552     -9.754     2.803E-10     1.763E-10     6.291E-01  Aqueous 
+  KHPO4-                -7.559     -7.760     2.761E-08     1.737E-08     6.291E-01  Aqueous 
+  PO4---               -11.018    -12.956     9.599E-12     1.107E-13     1.154E-02  Aqueous 
+  S--                 -126.022   -126.766     9.509-127     1.715-127     1.803E-01  Aqueous 
+  Sr(CO3)(aq)           -8.917     -8.851     1.210E-09     1.408E-09     1.164E+00  Aqueous 
+  SrHCO3+               -6.426     -6.612     3.750E-07     2.441E-07     6.510E-01  Aqueous 
+  SrCl+                 -6.118     -6.304     7.626E-07     4.964E-07     6.510E-01  Aqueous 
+  SrOH+                -10.602    -10.788     2.500E-11     1.627E-11     6.510E-01  Aqueous 
+  SrSO4(aq)             -6.079     -6.013     8.338E-07     9.703E-07     1.164E+00  Aqueous 
+
+  ****** Partial pressure of gases (bars) *****
+
+ CO2(g)               1.3665E-01
+ O2(g)                2.6106E-01
+
+  ***** Saturation state of minerals (log[Q/K] *****
+
+  Forsterite               -3.1847
+  Enstatite(alpha)         -0.1129
+  Anorthite               -11.1537
+  Ferropargasite          -15.1801
+  Anhydrite                 0.0084
+  Clinochlore               0.0222
+  Albite(low)              -0.0246
+  Fayalite                  0.0820
+  Epidote                   0.0000
+  Kaolinite                -7.1787
+  Muscovite(ordered)       -8.0329
+
+
+  ***** Volume of minerals added or subtracted *****
+
+ Forsterite         -9.661211254E-05
+ Enstatite(alpha)   -4.424564577E-06
+ Anorthite          -2.204626130E-05
+ Ferropargasite     -6.177056324E-05
+ Anhydrite          -4.526614174E-06
+ Clinochlore         2.568450851E-04
+ Albite(low)        -1.330506524E-04
+ Fayalite            2.006621826E-05
+ Epidote            -3.017842116E-13
+ Kaolinite          -1.000000000E-10
+ Muscovite(ordered) -1.000000000E-10
+
+ **************************************************************
+ ------> GRID LOCATION:     4:  1:  1
+
+  Temperature (C)    =     94.947
+  Porosity           =      0.081
+  Liquid Saturation  =      1.000
+  Liquid Density     =    961.729
+  Ionic Strength     =      0.639
+  Solution pH        =      5.953
+  Solution pe and Eh require H2(g) be included
+  Total Charge       =  3.408E-09
+
+ Total Aqueous Concentrations of Primary Species 
+ --------------------------------------- 
+
+   Species              Molality       Type 
+ H+                  -1.9283E-03     Aqueous      
+ Al+++                7.1327E-13     Aqueous      
+ CO2(aq)              4.7509E-03     Aqueous      
+ Mg++                 3.0694E-02     Aqueous      
+ Ca++                 1.4348E-02     Aqueous      
+ Fe++                 3.9236E-04     Aqueous      
+ Fe+++                5.9946E-11     Aqueous      
+ Ba++                 2.0004E-07     Aqueous      
+ Sr++                 9.0017E-06     Aqueous      
+ Cl-                  5.4826E-01     Aqueous      
+ K+                   1.2002E-02     Aqueous      
+ Na+                  4.9436E-01     Aqueous      
+ SO4--                2.3509E-02     Aqueous      
+ O2(aq)               1.8003E-04     Aqueous      
+ B(OH)3(aq)           4.0008E-04     Aqueous      
+ HPO4--               1.7003E-06     Aqueous      
+ NO3-                 3.9007E-05     Aqueous      
+ H4SiO4(aq)           5.2496E-02     Aqueous      
+
+ Concentrations of Individual Species, Exchangers, and Surface Complexes 
+ ----------------------------------------------------------------------- 
+
+                           Log        Log                 Concentration     
+ Species              Molality  Activity      Molality    Mol/m^3 blk      Activity   Type
+
+                           Log        Log                                 Activity
+ Species              Molality   Activity      Molality      Activity   Coefficient    Type
+  H+                    -5.845     -5.953     1.430E-06     1.115E-06     7.797E-01  Aqueous 
+  Al+++                -18.152    -19.358     7.041E-19     4.387E-20     6.230E-02  Aqueous 
+  CO2(aq)               -2.550     -2.486     2.821E-03     3.268E-03     1.159E+00  Aqueous 
+  Mg++                  -1.513     -2.167     3.069E-02     6.800E-03     2.216E-01  Aqueous 
+  Ca++                  -1.952     -2.641     1.118E-02     2.284E-03     2.042E-01  Aqueous 
+  Fe++                  -3.682     -4.372     2.078E-04     4.244E-05     2.042E-01  Aqueous 
+  Fe+++                -10.222    -11.428     5.995E-11     3.735E-12     6.230E-02  Aqueous 
+  Ba++                  -6.759     -7.532     1.741E-07     2.938E-08     1.687E-01  Aqueous 
+  Sr++                  -5.162     -5.934     6.893E-06     1.163E-06     1.687E-01  Aqueous 
+  Cl-                   -0.263     -0.495     5.452E-01     3.199E-01     5.868E-01  Aqueous 
+  K+                    -1.970     -2.202     1.071E-02     6.284E-03     5.868E-01  Aqueous 
+  Na+                   -0.314     -0.506     4.852E-01     3.120E-01     6.430E-01  Aqueous 
+  SO4--                 -1.898     -2.775     1.265E-02     1.677E-03     1.326E-01  Aqueous 
+  O2(aq)                -3.745     -3.681     1.800E-04     2.086E-04     1.159E+00  Aqueous 
+  B(OH)3(aq)            -3.398     -3.334     4.001E-04     4.635E-04     1.159E+00  Aqueous 
+  HPO4--                -6.603     -7.481     2.494E-07     3.307E-08     1.326E-01  Aqueous 
+  NO3-                  -4.409     -4.640     3.901E-05     2.289E-05     5.868E-01  Aqueous 
+  H4SiO4(aq)            -1.280     -1.216     5.250E-02     6.082E-02     1.159E+00  Aqueous 
+  HNO3(aq)             -11.258    -11.194     5.524E-12     6.400E-12     1.159E+00  Aqueous 
+  Al(OH)2+             -14.009    -14.204     9.792E-15     6.256E-15     6.388E-01  Aqueous 
+  AlO2-                -12.251    -12.461     5.605E-13     3.456E-13     6.166E-01  Aqueous 
+  AlOH++               -15.861    -16.574     1.377E-16     2.666E-17     1.937E-01  Aqueous 
+  BaHCO3+               -8.303     -8.497     4.981E-09     3.182E-09     6.388E-01  Aqueous 
+  BaCl+                 -7.679     -7.874     2.093E-08     1.337E-08     6.388E-01  Aqueous 
+  BaCO3(aq)            -11.208    -11.144     6.191E-12     7.173E-12     1.159E+00  Aqueous 
+  BaOH+                -12.069    -12.263     8.537E-13     5.454E-13     6.388E-01  Aqueous 
+  HCO3-                 -2.715     -2.907     1.928E-03     1.240E-03     6.430E-01  Aqueous 
+  CO3--                 -6.215     -7.037     6.098E-07     9.188E-08     1.507E-01  Aqueous 
+  CaCl+                 -2.765     -2.959     1.719E-03     1.098E-03     6.388E-01  Aqueous 
+  CaCl2(aq)             -4.124     -4.060     7.523E-05     8.716E-05     1.159E+00  Aqueous 
+  CaOH+                 -6.739     -6.934     1.823E-07     1.165E-07     6.388E-01  Aqueous 
+  CaSO4(aq)             -2.863     -2.799     1.372E-03     1.590E-03     1.159E+00  Aqueous 
+  FeCl+                 -3.880     -4.075     1.318E-04     8.423E-05     6.388E-01  Aqueous 
+  FeCl2(aq)             -6.442     -6.378     3.616E-07     4.189E-07     1.159E+00  Aqueous 
+  FeOH+                 -5.876     -6.070     1.331E-06     8.504E-07     6.388E-01  Aqueous 
+  FeSO4(aq)             -4.300     -4.236     5.012E-05     5.806E-05     1.159E+00  Aqueous 
+  OH-                   -6.180     -6.394     6.601E-07     4.039E-07     6.119E-01  Aqueous 
+  HS-                 -109.912   -110.125     1.225-110     7.497-111     6.119E-01  Aqueous 
+  H2S(aq)             -109.633   -109.569     2.327-110     2.696-110     1.159E+00  Aqueous 
+  H2PO4-                -5.941     -6.133     1.145E-06     7.362E-07     6.430E-01  Aqueous 
+  H3PO4(aq)             -9.599     -9.535     2.516E-10     2.914E-10     1.159E+00  Aqueous 
+  HAlO2(aq)            -13.024    -12.960     9.466E-14     1.097E-13     1.159E+00  Aqueous 
+  HSO4-                 -5.520     -5.730     3.020E-06     1.862E-06     6.166E-01  Aqueous 
+  KCl(aq)               -2.983     -2.919     1.040E-03     1.205E-03     1.159E+00  Aqueous 
+  KOH(aq)               -8.651     -8.587     2.232E-09     2.585E-09     1.159E+00  Aqueous 
+  KSO4-                 -3.595     -3.805     2.541E-04     1.567E-04     6.166E-01  Aqueous 
+  NH3(aq)              -51.989    -51.925     1.025E-52     1.188E-52     1.159E+00  Aqueous 
+  NaAlO2(aq)           -13.317    -13.253     4.817E-14     5.580E-14     1.159E+00  Aqueous 
+  NaOH(aq)              -7.566     -7.502     2.716E-08     3.146E-08     1.159E+00  Aqueous 
+  NaSO4-                -2.037     -2.221     9.181E-03     6.015E-03     6.552E-01  Aqueous 
+  H2(aq)               -34.916    -34.852     1.213E-35     1.405E-35     1.159E+00  Aqueous 
+  CaHPO4(aq)            -6.614     -6.551     2.430E-07     2.815E-07     1.159E+00  Aqueous 
+  CaPO4-                -8.428     -8.638     3.729E-09     2.299E-09     6.166E-01  Aqueous 
+  FeCO3(aq)             -6.057     -5.994     8.761E-07     1.015E-06     1.159E+00  Aqueous 
+  FeH2PO4+              -7.617     -7.812     2.415E-08     1.543E-08     6.388E-01  Aqueous 
+  FeHPO4(aq)            -8.224     -8.160     5.971E-09     6.917E-09     1.159E+00  Aqueous 
+  FePO4-               -10.016    -10.226     9.636E-11     5.941E-11     6.166E-01  Aqueous 
+  KHPO4-                -7.540     -7.750     2.886E-08     1.780E-08     6.166E-01  Aqueous 
+  PO4---               -11.644    -13.655     2.268E-12     2.213E-14     9.759E-03  Aqueous 
+  S--                 -118.297   -119.070     5.048-119     8.516-120     1.687E-01  Aqueous 
+  Sr(CO3)(aq)           -9.307     -9.243     4.930E-10     5.712E-10     1.159E+00  Aqueous 
+  SrHCO3+               -6.358     -6.552     4.388E-07     2.803E-07     6.388E-01  Aqueous 
+  SrCl+                 -6.003     -6.198     9.926E-07     6.341E-07     6.388E-01  Aqueous 
+  SrOH+                -10.394    -10.589     4.035E-11     2.578E-11     6.388E-01  Aqueous 
+  SrSO4(aq)             -6.169     -6.105     6.771E-07     7.845E-07     1.159E+00  Aqueous 
+
+  ****** Partial pressure of gases (bars) *****
+
+ CO2(g)               2.9569E-01
+ O2(g)                2.6893E-01
+
+  ***** Saturation state of minerals (log[Q/K] *****
+
+  Forsterite               -3.1367
+  Enstatite(alpha)         -0.2073
+  Anorthite               -10.1094
+  Ferropargasite          -14.1951
+  Anhydrite                 0.0087
+  Clinochlore               0.0222
+  Albite(low)              -0.0246
+  Fayalite                  0.0843
+  Epidote                   0.0000
+  Kaolinite                -6.3036
+  Muscovite(ordered)       -7.0631
+
+
+  ***** Volume of minerals added or subtracted *****
+
+ Forsterite         -9.648212705E-05
+ Enstatite(alpha)   -4.872588265E-06
+ Anorthite          -2.204626130E-05
+ Ferropargasite     -6.177056324E-05
+ Anhydrite           1.640826071E-05
+ Clinochlore         2.605492277E-04
+ Albite(low)        -1.365563403E-04
+ Fayalite            1.974526923E-05
+ Epidote            -6.461686648E-13
+ Kaolinite          -1.000000000E-10
+ Muscovite(ordered) -1.000000000E-10
+
+ **************************************************************
+ ------> GRID LOCATION:     5:  1:  1
+
+  Temperature (C)    =    114.932
+  Porosity           =      0.081
+  Liquid Saturation  =      1.000
+  Liquid Density     =    946.640
+  Ionic Strength     =      0.624
+  Solution pH        =      5.596
+  Solution pe and Eh require H2(g) be included
+  Total Charge       =  2.330E-08
+
+ Total Aqueous Concentrations of Primary Species 
+ --------------------------------------- 
+
+   Species              Molality       Type 
+ H+                  -9.1734E-04     Aqueous      
+ Al+++                4.0623E-12     Aqueous      
+ CO2(aq)              4.7511E-03     Aqueous      
+ Mg++                 2.9372E-02     Aqueous      
+ Ca++                 1.0204E-02     Aqueous      
+ Fe++                 7.2125E-04     Aqueous      
+ Fe+++                1.1901E-10     Aqueous      
+ Ba++                 2.0004E-07     Aqueous      
+ Sr++                 9.0020E-06     Aqueous      
+ Cl-                  5.4828E-01     Aqueous      
+ K+                   1.2003E-02     Aqueous      
+ Na+                  4.9508E-01     Aqueous      
+ SO4--                1.9231E-02     Aqueous      
+ O2(aq)               1.8004E-04     Aqueous      
+ B(OH)3(aq)           4.0009E-04     Aqueous      
+ HPO4--               1.7004E-06     Aqueous      
+ NO3-                 3.9009E-05     Aqueous      
+ H4SiO4(aq)           5.4114E-02     Aqueous      
+
+ Concentrations of Individual Species, Exchangers, and Surface Complexes 
+ ----------------------------------------------------------------------- 
+
+                           Log        Log                 Concentration     
+ Species              Molality  Activity      Molality    Mol/m^3 blk      Activity   Type
+
+                           Log        Log                                 Activity
+ Species              Molality   Activity      Molality      Activity   Coefficient    Type
+  H+                    -5.482     -5.596     3.295E-06     2.536E-06     7.696E-01  Aqueous 
+  Al+++                -17.268    -18.524     5.394E-18     2.995E-19     5.553E-02  Aqueous 
+  CO2(aq)               -2.418     -2.355     3.822E-03     4.413E-03     1.155E+00  Aqueous 
+  Mg++                  -1.532     -2.214     2.937E-02     6.105E-03     2.078E-01  Aqueous 
+  Ca++                  -2.115     -2.834     7.681E-03     1.467E-03     1.910E-01  Aqueous 
+  Fe++                  -3.516     -4.235     3.050E-04     5.825E-05     1.910E-01  Aqueous 
+  Fe+++                 -9.924    -11.180     1.190E-10     6.609E-12     5.553E-02  Aqueous 
+  Ba++                  -6.778     -7.584     1.666E-07     2.609E-08     1.565E-01  Aqueous 
+  Sr++                  -5.170     -5.975     6.759E-06     1.058E-06     1.565E-01  Aqueous 
+  Cl-                   -0.264     -0.506     5.449E-01     3.120E-01     5.726E-01  Aqueous 
+  K+                    -1.977     -2.219     1.055E-02     6.039E-03     5.726E-01  Aqueous 
+  Na+                   -0.313     -0.513     4.870E-01     3.067E-01     6.298E-01  Aqueous 
+  SO4--                 -2.001     -2.915     9.973E-03     1.215E-03     1.219E-01  Aqueous 
+  O2(aq)                -3.745     -3.682     1.800E-04     2.079E-04     1.155E+00  Aqueous 
+  B(OH)3(aq)            -3.398     -3.335     4.001E-04     4.619E-04     1.155E+00  Aqueous 
+  HPO4--                -6.927     -7.841     1.183E-07     1.441E-08     1.219E-01  Aqueous 
+  NO3-                  -4.409     -4.651     3.901E-05     2.234E-05     5.726E-01  Aqueous 
+  H4SiO4(aq)            -1.267     -1.204     5.411E-02     6.248E-02     1.155E+00  Aqueous 
+  HNO3(aq)             -10.718    -10.656     1.914E-11     2.210E-11     1.155E+00  Aqueous 
+  Al(OH)2+             -12.992    -13.196     1.018E-13     6.367E-14     6.255E-01  Aqueous 
+  AlO2-                -11.542    -11.762     2.871E-12     1.731E-12     6.029E-01  Aqueous 
+  AlOH++               -14.923    -15.666     1.194E-15     2.157E-16     1.807E-01  Aqueous 
+  BaHCO3+               -8.406     -8.610     3.922E-09     2.453E-09     6.255E-01  Aqueous 
+  BaCl+                 -7.530     -7.734     2.949E-08     1.845E-08     6.255E-01  Aqueous 
+  BaCO3(aq)            -11.731    -11.669     1.857E-12     2.144E-12     1.155E+00  Aqueous 
+  BaOH+                -11.881    -12.085     1.314E-12     8.221E-13     6.255E-01  Aqueous 
+  HCO3-                 -3.032     -3.233     9.280E-04     5.844E-04     6.298E-01  Aqueous 
+  CO3--                 -6.882     -7.738     1.313E-07     1.828E-08     1.392E-01  Aqueous 
+  CaCl+                 -2.787     -2.991     1.631E-03     1.020E-03     6.255E-01  Aqueous 
+  CaCl2(aq)             -4.170     -4.107     6.766E-05     7.811E-05     1.155E+00  Aqueous 
+  CaOH+                 -6.732     -6.936     1.853E-07     1.159E-07     6.255E-01  Aqueous 
+  CaSO4(aq)             -3.084     -3.022     8.239E-04     9.512E-04     1.155E+00  Aqueous 
+  FeCl+                 -3.466     -3.670     3.418E-04     2.138E-04     6.255E-01  Aqueous 
+  FeCl2(aq)             -6.050     -5.987     8.919E-07     1.030E-06     1.155E+00  Aqueous 
+  FeOH+                 -5.678     -5.882     2.099E-06     1.313E-06     6.255E-01  Aqueous 
+  FeSO4(aq)             -4.148     -4.086     7.112E-05     8.212E-05     1.155E+00  Aqueous 
+  OH-                   -6.222     -6.446     5.992E-07     3.584E-07     5.981E-01  Aqueous 
+  HS-                 -103.027   -103.251     9.387-104     5.614-104     5.981E-01  Aqueous 
+  H2S(aq)             -102.432   -102.369     3.701-103     4.273-103     1.155E+00  Aqueous 
+  H2PO4-                -5.856     -6.057     1.393E-06     8.770E-07     6.298E-01  Aqueous 
+  H3PO4(aq)             -9.040     -8.977     9.129E-10     1.054E-09     1.155E+00  Aqueous 
+  HAlO2(aq)            -12.122    -12.060     7.547E-13     8.714E-13     1.155E+00  Aqueous 
+  HSO4-                 -4.994     -5.214     1.013E-05     6.109E-06     6.029E-01  Aqueous 
+  KCl(aq)               -2.914     -2.852     1.219E-03     1.407E-03     1.155E+00  Aqueous 
+  KOH(aq)               -8.589     -8.526     2.578E-09     2.977E-09     1.155E+00  Aqueous 
+  KSO4-                 -3.625     -3.845     2.371E-04     1.430E-04     6.029E-01  Aqueous 
+  NH3(aq)              -48.545    -48.483     2.851E-49     3.292E-49     1.155E+00  Aqueous 
+  NaAlO2(aq)           -12.477    -12.415     3.331E-13     3.846E-13     1.155E+00  Aqueous 
+  NaOH(aq)              -7.531     -7.469     2.942E-08     3.397E-08     1.155E+00  Aqueous 
+  NaSO4-                -2.091     -2.283     8.115E-03     5.211E-03     6.421E-01  Aqueous 
+  H2(aq)               -32.796    -32.734     1.598E-33     1.845E-33     1.155E+00  Aqueous 
+  CaHPO4(aq)            -6.930     -6.868     1.175E-07     1.357E-07     1.155E+00  Aqueous 
+  CaPO4-                -8.940     -9.160     1.148E-09     6.923E-10     6.029E-01  Aqueous 
+  FeCO3(aq)             -6.504     -6.441     3.134E-07     3.619E-07     1.155E+00  Aqueous 
+  FeH2PO4+              -7.394     -7.598     4.032E-08     2.522E-08     6.255E-01  Aqueous 
+  FeHPO4(aq)            -8.366     -8.303     4.307E-09     4.973E-09     1.155E+00  Aqueous 
+  FePO4-               -10.506    -10.726     3.115E-11     1.878E-11     6.029E-01  Aqueous 
+  KHPO4-                -7.596     -7.816     2.534E-08     1.528E-08     6.029E-01  Aqueous 
+  PO4---               -12.309    -14.402     4.908E-13     3.961E-15     8.071E-03  Aqueous 
+  S--                 -111.343   -112.149     4.536-112     7.101-113     1.565E-01  Aqueous 
+  Sr(CO3)(aq)           -9.788     -9.726     1.628E-10     1.880E-10     1.155E+00  Aqueous 
+  SrHCO3+               -6.398     -6.602     4.001E-07     2.502E-07     6.255E-01  Aqueous 
+  SrCl+                 -5.883     -6.087     1.309E-06     8.188E-07     6.255E-01  Aqueous 
+  SrOH+                -10.214    -10.418     6.110E-11     3.822E-11     6.255E-01  Aqueous 
+  SrSO4(aq)             -6.273     -6.210     5.338E-07     6.163E-07     1.155E+00  Aqueous 
+
+  ****** Partial pressure of gases (bars) *****
+
+ CO2(g)               4.5386E-01
+ O2(g)                2.6276E-01
+
+  ***** Saturation state of minerals (log[Q/K] *****
+
+  Forsterite               -3.0888
+  Enstatite(alpha)         -0.2900
+  Anorthite                -9.1802
+  Ferropargasite          -13.3323
+  Anhydrite                 0.0090
+  Clinochlore               0.0221
+  Albite(low)              -0.0244
+  Fayalite                  0.0885
+  Epidote                   0.0000
+  Kaolinite                -5.5200
+  Muscovite(ordered)       -6.1848
+
+
+  ***** Volume of minerals added or subtracted *****
+
+ Forsterite         -9.620274555E-05
+ Enstatite(alpha)   -5.182466670E-06
+ Anorthite          -2.204626130E-05
+ Ferropargasite     -6.177056324E-05
+ Anhydrite           3.123689655E-05
+ Clinochlore         2.636820232E-04
+ Albite(low)        -1.395212927E-04
+ Fayalite            1.915966082E-05
+ Epidote            -1.282510063E-12
+ Kaolinite          -1.000000000E-10
+ Muscovite(ordered) -1.000000000E-10
+
+ **************************************************************
+ ------> GRID LOCATION:     6:  1:  1
+
+  Temperature (C)    =    134.917
+  Porosity           =      0.081
+  Liquid Saturation  =      1.000
+  Liquid Density     =    929.684
+  Ionic Strength     =      0.612
+  Solution pH        =      5.282
+  Solution pe and Eh require H2(g) be included
+  Total Charge       =  2.532E-08
+
+ Total Aqueous Concentrations of Primary Species 
+ --------------------------------------- 
+
+   Species              Molality       Type 
+ H+                  -3.5564E-04     Aqueous      
+ Al+++                2.0005E-11     Aqueous      
+ CO2(aq)              4.7512E-03     Aqueous      
+ Mg++                 2.7948E-02     Aqueous      
+ Ca++                 7.2334E-03     Aqueous      
+ Fe++                 1.3515E-03     Aqueous      
+ Fe+++                2.2872E-10     Aqueous      
+ Ba++                 2.0005E-07     Aqueous      
+ Sr++                 9.0023E-06     Aqueous      
+ Cl-                  5.4829E-01     Aqueous      
+ K+                   1.2003E-02     Aqueous      
+ Na+                  4.9581E-01     Aqueous      
+ SO4--                1.6104E-02     Aqueous      
+ O2(aq)               1.8005E-04     Aqueous      
+ B(OH)3(aq)           4.0010E-04     Aqueous      
+ HPO4--               1.7004E-06     Aqueous      
+ NO3-                 3.9010E-05     Aqueous      
+ H4SiO4(aq)           5.5857E-02     Aqueous      
+
+ Concentrations of Individual Species, Exchangers, and Surface Complexes 
+ ----------------------------------------------------------------------- 
+
+                           Log        Log                 Concentration     
+ Species              Molality  Activity      Molality    Mol/m^3 blk      Activity   Type
+
+                           Log        Log                                 Activity
+ Species              Molality   Activity      Molality      Activity   Coefficient    Type
+  H+                    -5.162     -5.282     6.892E-06     5.228E-06     7.586E-01  Aqueous 
+  Al+++                -16.498    -17.809     3.174E-17     1.552E-18     4.888E-02  Aqueous 
+  CO2(aq)               -2.360     -2.299     4.360E-03     5.020E-03     1.151E+00  Aqueous 
+  Mg++                  -1.554     -2.267     2.795E-02     5.411E-03     1.936E-01  Aqueous 
+  Ca++                  -2.289     -3.040     5.144E-03     9.117E-04     1.772E-01  Aqueous 
+  Fe++                  -3.375     -4.127     4.215E-04     7.470E-05     1.772E-01  Aqueous 
+  Fe+++                 -9.641    -10.952     2.287E-10     1.118E-11     4.888E-02  Aqueous 
+  Ba++                  -6.806     -7.647     1.564E-07     2.252E-08     1.440E-01  Aqueous 
+  Sr++                  -5.184     -6.025     6.552E-06     9.435E-07     1.440E-01  Aqueous 
+  Cl-                   -0.264     -0.518     5.444E-01     3.032E-01     5.570E-01  Aqueous 
+  K+                    -1.985     -2.239     1.035E-02     5.766E-03     5.570E-01  Aqueous 
+  Na+                   -0.311     -0.522     4.884E-01     3.006E-01     6.153E-01  Aqueous 
+  SO4--                 -2.102     -3.058     7.902E-03     8.758E-04     1.108E-01  Aqueous 
+  O2(aq)                -3.745     -3.683     1.800E-04     2.073E-04     1.151E+00  Aqueous 
+  B(OH)3(aq)            -3.398     -3.337     4.001E-04     4.607E-04     1.151E+00  Aqueous 
+  HPO4--                -7.272     -8.227     5.350E-08     5.929E-09     1.108E-01  Aqueous 
+  NO3-                  -4.409     -4.663     3.901E-05     2.173E-05     5.570E-01  Aqueous 
+  H4SiO4(aq)            -1.253     -1.192     5.586E-02     6.431E-02     1.151E+00  Aqueous 
+  HNO3(aq)             -10.226    -10.165     5.947E-11     6.847E-11     1.151E+00  Aqueous 
+  Al(OH)2+             -12.077    -12.291     8.384E-13     5.122E-13     6.110E-01  Aqueous 
+  AlO2-                -10.911    -11.142     1.226E-11     7.209E-12     5.879E-01  Aqueous 
+  AlOH++               -14.085    -14.862     8.220E-15     1.375E-15     1.673E-01  Aqueous 
+  BaHCO3+               -8.579     -8.793     2.634E-09     1.609E-09     6.110E-01  Aqueous 
+  BaCl+                 -7.387     -7.601     4.102E-08     2.506E-08     6.110E-01  Aqueous 
+  BaCO3(aq)            -12.303    -12.241     4.982E-13     5.736E-13     1.151E+00  Aqueous 
+  BaOH+                -11.729    -11.943     1.868E-12     1.141E-12     6.110E-01  Aqueous 
+  HCO3-                 -3.408     -3.619     3.904E-04     2.402E-04     6.153E-01  Aqueous 
+  CO3--                 -7.588     -8.483     2.582E-08     3.288E-09     1.274E-01  Aqueous 
+  CaCl+                 -2.813     -3.027     1.539E-03     9.400E-04     6.110E-01  Aqueous 
+  CaCl2(aq)             -4.199     -4.138     6.325E-05     7.282E-05     1.151E+00  Aqueous 
+  CaOH+                 -6.751     -6.965     1.773E-07     1.083E-07     6.110E-01  Aqueous 
+  CaSO4(aq)             -3.313     -3.251     4.868E-04     5.605E-04     1.151E+00  Aqueous 
+  FeCl+                 -3.082     -3.296     8.289E-04     5.064E-04     6.110E-01  Aqueous 
+  FeCl2(aq)             -5.668     -5.607     2.147E-06     2.472E-06     1.151E+00  Aqueous 
+  FeOH+                 -5.505     -5.719     3.127E-06     1.910E-06     6.110E-01  Aqueous 
+  FeSO4(aq)             -4.019     -3.958     9.562E-05     1.101E-04     1.151E+00  Aqueous 
+  OH-                   -6.274     -6.509     5.318E-07     3.101E-07     5.830E-01  Aqueous 
+  HS-                  -96.776    -97.010     1.675E-97     9.767E-98     5.830E-01  Aqueous 
+  H2S(aq)              -95.875    -95.814     1.333E-96     1.535E-96     1.151E+00  Aqueous 
+  H2PO4-                -5.821     -6.032     1.511E-06     9.297E-07     6.153E-01  Aqueous 
+  H3PO4(aq)             -8.570     -8.509     2.689E-09     3.096E-09     1.151E+00  Aqueous 
+  HAlO2(aq)            -11.303    -11.242     4.972E-12     5.724E-12     1.151E+00  Aqueous 
+  HSO4-                 -4.512     -4.743     3.076E-05     1.808E-05     5.879E-01  Aqueous 
+  KCl(aq)               -2.845     -2.784     1.428E-03     1.644E-03     1.151E+00  Aqueous 
+  KOH(aq)               -8.541     -8.480     2.879E-09     3.315E-09     1.151E+00  Aqueous 
+  KSO4-                 -3.649     -3.879     2.246E-04     1.320E-04     5.879E-01  Aqueous 
+  NH3(aq)              -45.392    -45.330     4.058E-46     4.672E-46     1.151E+00  Aqueous 
+  NaAlO2(aq)           -11.716    -11.655     1.924E-12     2.215E-12     1.151E+00  Aqueous 
+  NaOH(aq)              -7.493     -7.432     3.216E-08     3.702E-08     1.151E+00  Aqueous 
+  NaSO4-                -2.133     -2.335     7.364E-03     4.624E-03     6.279E-01  Aqueous 
+  H2(aq)               -30.863    -30.802     1.371E-31     1.579E-31     1.151E+00  Aqueous 
+  CaHPO4(aq)            -7.273     -7.212     5.328E-08     6.134E-08     1.151E+00  Aqueous 
+  CaPO4-                -9.451     -9.681     3.542E-10     2.082E-10     5.879E-01  Aqueous 
+  FeCO3(aq)             -7.005     -6.944     9.888E-08     1.138E-07     1.151E+00  Aqueous 
+  FeH2PO4+              -7.251     -7.465     5.613E-08     3.429E-08     6.110E-01  Aqueous 
+  FeHPO4(aq)            -8.545     -8.484     2.848E-09     3.280E-09     1.151E+00  Aqueous 
+  FePO4-               -10.991    -11.221     1.022E-11     6.008E-12     5.879E-01  Aqueous 
+  KHPO4-                -7.684     -7.914     2.072E-08     1.218E-08     5.879E-01  Aqueous 
+  PO4---               -12.975    -15.160     1.060E-13     6.912E-16     6.523E-03  Aqueous 
+  S--                 -105.045   -105.887     9.006-106     1.297-106     1.440E-01  Aqueous 
+  Sr(CO3)(aq)          -10.319    -10.258     4.798E-11     5.524E-11     1.151E+00  Aqueous 
+  SrHCO3+               -6.506     -6.720     3.116E-07     1.903E-07     6.110E-01  Aqueous 
+  SrCl+                 -5.762     -5.976     1.729E-06     1.056E-06     6.110E-01  Aqueous 
+  SrOH+                -10.061    -10.275     8.692E-11     5.310E-11     6.110E-01  Aqueous 
+  SrSO4(aq)             -6.387     -6.326     4.099E-07     4.720E-07     1.151E+00  Aqueous 
+
+  ****** Partial pressure of gases (bars) *****
+
+ CO2(g)               5.5571E-01
+ O2(g)                2.4628E-01
+
+  ***** Saturation state of minerals (log[Q/K] *****
+
+  Forsterite               -3.0361
+  Enstatite(alpha)         -0.3592
+  Anorthite                -8.3603
+  Ferropargasite          -12.5837
+  Anhydrite                 0.0094
+  Clinochlore               0.0217
+  Albite(low)              -0.0237
+  Fayalite                  0.0961
+  Epidote                   0.0000
+  Kaolinite                -4.8243
+  Muscovite(ordered)       -5.3996
+
+
+  ***** Volume of minerals added or subtracted *****
+
+ Forsterite         -9.574349816E-05
+ Enstatite(alpha)   -5.383890479E-06
+ Anorthite          -2.204626130E-05
+ Ferropargasite     -6.177056324E-05
+ Anhydrite           4.150427346E-05
+ Clinochlore         2.663774316E-04
+ Albite(low)        -1.420722919E-04
+ Fayalite            1.806591408E-05
+ Epidote            -2.427559939E-12
+ Kaolinite          -1.000000000E-10
+ Muscovite(ordered) -1.000000000E-10
+
+ **************************************************************
+ ------> GRID LOCATION:     7:  1:  1
+
+  Temperature (C)    =    154.903
+  Porosity           =      0.081
+  Liquid Saturation  =      1.000
+  Liquid Density     =    910.941
+  Ionic Strength     =      0.601
+  Solution pH        =      5.010
+  Solution pe and Eh require H2(g) be included
+  Total Charge       =  2.110E-08
+
+ Total Aqueous Concentrations of Primary Species 
+ --------------------------------------- 
+
+   Species              Molality       Type 
+ H+                  -6.4253E-05     Aqueous      
+ Al+++                8.4311E-11     Aqueous      
+ CO2(aq)              4.7514E-03     Aqueous      
+ Mg++                 2.6006E-02     Aqueous      
+ Ca++                 5.1323E-03     Aqueous      
+ Fe++                 2.5124E-03     Aqueous      
+ Fe+++                4.1655E-10     Aqueous      
+ Ba++                 2.0006E-07     Aqueous      
+ Sr++                 9.0026E-06     Aqueous      
+ Cl-                  5.4831E-01     Aqueous      
+ K+                   1.2004E-02     Aqueous      
+ Na+                  4.9674E-01     Aqueous      
+ SO4--                1.3824E-02     Aqueous      
+ O2(aq)               1.8005E-04     Aqueous      
+ B(OH)3(aq)           4.0012E-04     Aqueous      
+ HPO4--               1.7005E-06     Aqueous      
+ NO3-                 3.9011E-05     Aqueous      
+ H4SiO4(aq)           5.8141E-02     Aqueous      
+
+ Concentrations of Individual Species, Exchangers, and Surface Complexes 
+ ----------------------------------------------------------------------- 
+
+                           Log        Log                 Concentration     
+ Species              Molality  Activity      Molality    Mol/m^3 blk      Activity   Type
+
+                           Log        Log                                 Activity
+ Species              Molality   Activity      Molality      Activity   Coefficient    Type
+  H+                    -4.883     -5.010     1.310E-05     9.779E-06     7.465E-01  Aqueous 
+  Al+++                -15.864    -17.236     1.368E-16     5.803E-18     4.242E-02  Aqueous 
+  CO2(aq)               -2.338     -2.278     4.593E-03     5.275E-03     1.149E+00  Aqueous 
+  Mg++                  -1.585     -2.332     2.601E-02     4.652E-03     1.789E-01  Aqueous 
+  Ca++                  -2.475     -3.263     3.347E-03     5.458E-04     1.630E-01  Aqueous 
+  Fe++                  -3.271     -4.058     5.362E-04     8.742E-05     1.630E-01  Aqueous 
+  Fe+++                 -9.380    -10.753     4.165E-10     1.767E-11     4.242E-02  Aqueous 
+  Ba++                  -6.846     -7.728     1.425E-07     1.869E-08     1.312E-01  Aqueous 
+  Sr++                  -5.207     -6.089     6.204E-06     8.138E-07     1.312E-01  Aqueous 
+  Cl-                   -0.265     -0.533     5.432E-01     2.934E-01     5.401E-01  Aqueous 
+  K+                    -1.995     -2.263     1.011E-02     5.461E-03     5.401E-01  Aqueous 
+  Na+                   -0.310     -0.532     4.899E-01     2.937E-01     5.995E-01  Aqueous 
+  SO4--                 -2.202     -3.204     6.274E-03     6.255E-04     9.970E-02  Aqueous 
+  O2(aq)                -3.745     -3.684     1.801E-04     2.068E-04     1.149E+00  Aqueous 
+  B(OH)3(aq)            -3.398     -3.338     4.001E-04     4.595E-04     1.149E+00  Aqueous 
+  HPO4--                -7.610     -8.611     2.456E-08     2.449E-09     9.970E-02  Aqueous 
+  NO3-                  -4.409     -4.676     3.901E-05     2.107E-05     5.401E-01  Aqueous 
+  H4SiO4(aq)            -1.236     -1.175     5.814E-02     6.678E-02     1.149E+00  Aqueous 
+  HNO3(aq)              -9.777     -9.717     1.670E-10     1.918E-10     1.149E+00  Aqueous 
+  Al(OH)2+             -11.273    -11.499     5.327E-12     3.170E-12     5.950E-01  Aqueous 
+  AlO2-                -10.365    -10.608     4.318E-11     2.468E-11     5.715E-01  Aqueous 
+  AlOH++               -13.365    -14.179     4.317E-14     6.625E-15     1.535E-01  Aqueous 
+  BaHCO3+               -8.781     -9.007     1.654E-09     9.841E-10     5.950E-01  Aqueous 
+  BaCl+                 -7.252     -7.478     5.592E-08     3.327E-08     5.950E-01  Aqueous 
+  BaCO3(aq)            -12.878    -12.818     1.325E-13     1.522E-13     1.149E+00  Aqueous 
+  BaOH+                -11.605    -11.830     2.485E-12     1.478E-12     5.950E-01  Aqueous 
+  HCO3-                 -3.801     -4.023     1.582E-04     9.486E-05     5.995E-01  Aqueous 
+  CO3--                 -8.291     -9.229     5.120E-09     5.904E-10     1.153E-01  Aqueous 
+  CaCl+                 -2.842     -3.067     1.439E-03     8.561E-04     5.950E-01  Aqueous 
+  CaCl2(aq)             -4.213     -4.153     6.121E-05     7.031E-05     1.149E+00  Aqueous 
+  CaOH+                 -6.790     -7.015     1.622E-07     9.651E-08     5.950E-01  Aqueous 
+  CaSO4(aq)             -3.546     -3.486     2.846E-04     3.269E-04     1.149E+00  Aqueous 
+  FeCl+                 -2.734     -2.959     1.847E-03     1.099E-03     5.950E-01  Aqueous 
+  FeCl2(aq)             -5.305     -5.245     4.951E-06     5.686E-06     1.149E+00  Aqueous 
+  FeOH+                 -5.361     -5.586     4.358E-06     2.593E-06     5.950E-01  Aqueous 
+  FeSO4(aq)             -3.920     -3.860     1.202E-04     1.380E-04     1.149E+00  Aqueous 
+  OH-                   -6.331     -6.577     4.670E-07     2.646E-07     5.665E-01  Aqueous 
+  HS-                  -91.075    -91.322     8.410E-92     4.764E-92     5.665E-01  Aqueous 
+  H2S(aq)              -89.884    -89.824     1.305E-90     1.499E-90     1.149E+00  Aqueous 
+  H2PO4-                -5.807     -6.030     1.558E-06     9.340E-07     5.995E-01  Aqueous 
+  H3PO4(aq)             -8.162     -8.101     6.893E-09     7.916E-09     1.149E+00  Aqueous 
+  HAlO2(aq)            -10.576    -10.516     2.652E-11     3.046E-11     1.149E+00  Aqueous 
+  HSO4-                 -4.073     -4.316     8.457E-05     4.833E-05     5.715E-01  Aqueous 
+  KCl(aq)               -2.776     -2.716     1.676E-03     1.925E-03     1.149E+00  Aqueous 
+  KOH(aq)               -8.500     -8.440     3.161E-09     3.630E-09     1.149E+00  Aqueous 
+  KSO4-                 -3.667     -3.910     2.155E-04     1.231E-04     5.715E-01  Aqueous 
+  NH3(aq)              -42.494    -42.434     3.208E-43     3.684E-43     1.149E+00  Aqueous 
+  NaAlO2(aq)           -11.034    -10.974     9.238E-12     1.061E-11     1.149E+00  Aqueous 
+  NaOH(aq)              -7.443     -7.383     3.605E-08     4.140E-08     1.149E+00  Aqueous 
+  NaSO4-                -2.165     -2.378     6.845E-03     4.192E-03     6.124E-01  Aqueous 
+  H2(aq)               -29.091    -29.030     8.118E-30     9.323E-30     1.149E+00  Aqueous 
+  CaHPO4(aq)            -7.615     -7.554     2.429E-08     2.789E-08     1.149E+00  Aqueous 
+  CaPO4-                -9.928    -10.171     1.180E-10     6.743E-11     5.715E-01  Aqueous 
+  FeCO3(aq)             -7.523     -7.463     2.999E-08     3.444E-08     1.149E+00  Aqueous 
+  FeH2PO4+              -7.169     -7.395     6.776E-08     4.032E-08     5.950E-01  Aqueous 
+  FeHPO4(aq)            -8.746     -8.686     1.795E-09     2.061E-09     1.149E+00  Aqueous 
+  FePO4-               -11.452    -11.695     3.533E-12     2.019E-12     5.715E-01  Aqueous 
+  KHPO4-                -7.769     -8.012     1.703E-08     9.731E-09     5.715E-01  Aqueous 
+  PO4---               -13.612    -15.901     2.442E-14     1.256E-16     5.142E-03  Aqueous 
+  S--                  -99.308   -100.190     4.925-100     6.461-101     1.312E-01  Aqueous 
+  Sr(CO3)(aq)          -10.854    -10.794     1.398E-11     1.606E-11     1.149E+00  Aqueous 
+  SrHCO3+               -6.644     -6.869     2.270E-07     1.351E-07     5.950E-01  Aqueous 
+  SrCl+                 -5.645     -5.871     2.264E-06     1.347E-06     5.950E-01  Aqueous 
+  SrOH+                 -9.931    -10.156     1.173E-10     6.981E-11     5.950E-01  Aqueous 
+  SrSO4(aq)             -6.513     -6.453     3.070E-07     3.526E-07     1.149E+00  Aqueous 
+
+  ****** Partial pressure of gases (bars) *****
+
+ CO2(g)               6.0064E-01
+ O2(g)                2.2310E-01
+
+  ***** Saturation state of minerals (log[Q/K] *****
+
+  Forsterite               -2.9656
+  Enstatite(alpha)         -0.4076
+  Anorthite                -7.6545
+  Ferropargasite          -11.9459
+  Anhydrite                 0.0098
+  Clinochlore               0.0211
+  Albite(low)              -0.0223
+  Fayalite                  0.1078
+  Epidote                   0.0000
+  Kaolinite                -4.2328
+  Muscovite(ordered)       -4.7328
+
+
+  ***** Volume of minerals added or subtracted *****
+
+ Forsterite         -9.518925188E-05
+ Enstatite(alpha)   -5.483118476E-06
+ Anorthite          -2.204626130E-05
+ Ferropargasite     -6.177056324E-05
+ Anhydrite           4.840286999E-05
+ Clinochlore         2.700579180E-04
+ Albite(low)        -1.455555913E-04
+ Fayalite            1.610821326E-05
+ Epidote            -4.338763433E-12
+ Kaolinite          -1.000000000E-10
+ Muscovite(ordered) -1.000000000E-10
+
+ **************************************************************
+ ------> GRID LOCATION:     8:  1:  1
+
+  Temperature (C)    =    174.887
+  Porosity           =      0.081
+  Liquid Saturation  =      1.000
+  Liquid Density     =    890.465
+  Ionic Strength     =      0.591
+  Solution pH        =      4.783
+  Solution pe and Eh require H2(g) be included
+  Total Charge       = -2.579E-08
+
+ Total Aqueous Concentrations of Primary Species 
+ --------------------------------------- 
+
+   Species              Molality       Type 
+ H+                   1.6134E-04     Aqueous      
+ Al+++                2.9740E-10     Aqueous      
+ CO2(aq)              4.7515E-03     Aqueous      
+ Mg++                 2.3120E-02     Aqueous      
+ Ca++                 3.6793E-03     Aqueous      
+ Fe++                 4.4233E-03     Aqueous      
+ Fe+++                6.8219E-10     Aqueous      
+ Ba++                 2.0006E-07     Aqueous      
+ Sr++                 9.0029E-06     Aqueous      
+ Cl-                  5.4833E-01     Aqueous      
+ K+                   1.2004E-02     Aqueous      
+ Na+                  4.9808E-01     Aqueous      
+ SO4--                1.2167E-02     Aqueous      
+ O2(aq)               1.8006E-04     Aqueous      
+ B(OH)3(aq)           4.0013E-04     Aqueous      
+ HPO4--               1.7005E-06     Aqueous      
+ NO3-                 3.9013E-05     Aqueous      
+ H4SiO4(aq)           6.1441E-02     Aqueous      
+
+ Concentrations of Individual Species, Exchangers, and Surface Complexes 
+ ----------------------------------------------------------------------- 
+
+                           Log        Log                 Concentration     
+ Species              Molality  Activity      Molality    Mol/m^3 blk      Activity   Type
+
+                           Log        Log                                 Activity
+ Species              Molality   Activity      Molality      Activity   Coefficient    Type
+  H+                    -4.648     -4.783     2.251E-05     1.649E-05     7.326E-01  Aqueous 
+  Al+++                -15.395    -16.836     4.031E-16     1.458E-17     3.617E-02  Aqueous 
+  CO2(aq)               -2.329     -2.270     4.686E-03     5.368E-03     1.146E+00  Aqueous 
+  Mg++                  -1.636     -2.422     2.312E-02     3.782E-03     1.636E-01  Aqueous 
+  Ca++                  -2.674     -3.503     2.116E-03     3.141E-04     1.484E-01  Aqueous 
+  Fe++                  -3.217     -4.046     6.062E-04     8.996E-05     1.484E-01  Aqueous 
+  Fe+++                 -9.166    -10.608     6.822E-10     2.468E-11     3.617E-02  Aqueous 
+  Ba++                  -6.904     -7.832     1.248E-07     1.473E-08     1.181E-01  Aqueous 
+  Sr++                  -5.245     -6.173     5.692E-06     6.721E-07     1.181E-01  Aqueous 
+  Cl-                   -0.267     -0.550     5.412E-01     2.821E-01     5.213E-01  Aqueous 
+  K+                    -2.008     -2.291     9.823E-03     5.120E-03     5.213E-01  Aqueous 
+  Na+                   -0.308     -0.544     4.916E-01     2.860E-01     5.818E-01  Aqueous 
+  SO4--                 -2.305     -3.358     4.958E-03     4.387E-04     8.848E-02  Aqueous 
+  O2(aq)                -3.745     -3.686     1.801E-04     2.063E-04     1.146E+00  Aqueous 
+  B(OH)3(aq)            -3.398     -3.339     4.001E-04     4.584E-04     1.146E+00  Aqueous 
+  HPO4--                -7.925     -8.978     1.188E-08     1.051E-09     8.848E-02  Aqueous 
+  NO3-                  -4.409     -4.692     3.901E-05     2.034E-05     5.213E-01  Aqueous 
+  H4SiO4(aq)            -1.212     -1.152     6.144E-02     7.039E-02     1.146E+00  Aqueous 
+  HNO3(aq)              -9.373     -9.314     4.240E-10     4.858E-10     1.146E+00  Aqueous 
+  Al(OH)2+             -10.600    -10.838     2.515E-11     1.452E-11     5.772E-01  Aqueous 
+  AlO2-                 -9.907    -10.164     1.238E-10     6.851E-11     5.532E-01  Aqueous 
+  AlOH++               -12.787    -13.643     1.635E-13     2.277E-14     1.393E-01  Aqueous 
+  BaHCO3+               -8.989     -9.228     1.025E-09     5.915E-10     5.772E-01  Aqueous 
+  BaCl+                 -7.129     -7.368     7.427E-08     4.287E-08     5.772E-01  Aqueous 
+  BaCO3(aq)            -13.427    -13.368     3.739E-14     4.284E-14     1.146E+00  Aqueous 
+  BaOH+                -11.502    -11.741     3.145E-12     1.816E-12     5.772E-01  Aqueous 
+  HCO3-                 -4.184     -4.420     6.542E-05     3.806E-05     5.818E-01  Aqueous 
+  CO3--                 -8.961     -9.948     1.094E-09     1.128E-10     1.031E-01  Aqueous 
+  CaCl+                 -2.874     -3.113     1.336E-03     7.711E-04     5.772E-01  Aqueous 
+  CaCl2(aq)             -4.212     -4.153     6.139E-05     7.033E-05     1.146E+00  Aqueous 
+  CaOH+                 -6.838     -7.077     1.451E-07     8.376E-08     5.772E-01  Aqueous 
+  CaSO4(aq)             -3.782     -3.722     1.654E-04     1.895E-04     1.146E+00  Aqueous 
+  FeCl+                 -2.436     -2.675     3.664E-03     2.115E-03     5.772E-01  Aqueous 
+  FeCl2(aq)             -4.975     -4.915     1.060E-05     1.215E-05     1.146E+00  Aqueous 
+  FeOH+                 -5.253     -5.492     5.584E-06     3.223E-06     5.772E-01  Aqueous 
+  FeSO4(aq)             -3.864     -3.805     1.369E-04     1.568E-04     1.146E+00  Aqueous 
+  OH-                   -6.385     -6.646     4.120E-07     2.259E-07     5.481E-01  Aqueous 
+  HS-                  -85.862    -86.123     1.375E-86     7.535E-87     5.481E-01  Aqueous 
+  H2S(aq)              -84.400    -84.341     3.981E-85     4.561E-85     1.146E+00  Aqueous 
+  H2PO4-                -5.803     -6.038     1.575E-06     9.161E-07     5.818E-01  Aqueous 
+  H3PO4(aq)             -7.800     -7.741     1.584E-08     1.814E-08     1.146E+00  Aqueous 
+  HAlO2(aq)             -9.952     -9.893     1.116E-10     1.279E-10     1.146E+00  Aqueous 
+  HSO4-                 -3.680     -3.937     2.090E-04     1.156E-04     5.532E-01  Aqueous 
+  KCl(aq)               -2.705     -2.646     1.973E-03     2.261E-03     1.146E+00  Aqueous 
+  KOH(aq)               -8.458     -8.399     3.483E-09     3.990E-09     1.146E+00  Aqueous 
+  KSO4-                 -3.681     -3.938     2.085E-04     1.154E-04     5.532E-01  Aqueous 
+  NH3(aq)              -39.824    -39.765     1.499E-40     1.718E-40     1.146E+00  Aqueous 
+  NaAlO2(aq)           -10.436    -10.377     3.664E-11     4.198E-11     1.146E+00  Aqueous 
+  NaOH(aq)              -7.373     -7.314     4.236E-08     4.853E-08     1.146E+00  Aqueous 
+  NaSO4-                -2.188     -2.413     6.489E-03     3.860E-03     5.949E-01  Aqueous 
+  H2(aq)               -27.458    -27.399     3.486E-28     3.994E-28     1.146E+00  Aqueous 
+  CaHPO4(aq)            -7.933     -7.874     1.166E-08     1.336E-08     1.146E+00  Aqueous 
+  CaPO4-               -10.347    -10.604     4.501E-11     2.490E-11     5.532E-01  Aqueous 
+  FeCO3(aq)             -8.041     -7.982     9.090E-09     1.041E-08     1.146E+00  Aqueous 
+  FeH2PO4+              -7.152     -7.390     7.050E-08     4.069E-08     5.772E-01  Aqueous 
+  FeHPO4(aq)            -8.968     -8.909     1.077E-09     1.234E-09     1.146E+00  Aqueous 
+  FePO4-               -11.887    -12.145     1.296E-12     7.168E-13     5.532E-01  Aqueous 
+  KHPO4-                -7.830     -8.087     1.479E-08     8.180E-09     5.532E-01  Aqueous 
+  PO4---               -14.201    -16.606     6.295E-15     2.479E-17     3.938E-03  Aqueous 
+  S--                  -94.051    -94.978     8.900E-95     1.051E-95     1.181E-01  Aqueous 
+  Sr(CO3)(aq)          -11.364    -11.305     4.326E-12     4.956E-12     1.146E+00  Aqueous 
+  SrHCO3+               -6.787     -7.025     1.635E-07     9.435E-08     5.772E-01  Aqueous 
+  SrCl+                 -5.534     -5.773     2.923E-06     1.687E-06     5.772E-01  Aqueous 
+  SrOH+                 -9.816    -10.055     1.527E-10     8.814E-11     5.772E-01  Aqueous 
+  SrSO4(aq)             -6.650     -6.591     2.240E-07     2.567E-07     1.146E+00  Aqueous 
+
+  ****** Partial pressure of gases (bars) *****
+
+ CO2(g)               6.0519E-01
+ O2(g)                1.9637E-01
+
+  ***** Saturation state of minerals (log[Q/K] *****
+
+  Forsterite               -2.8631
+  Enstatite(alpha)         -0.4277
+  Anorthite                -7.0676
+  Ferropargasite          -11.4150
+  Anhydrite                 0.0102
+  Clinochlore               0.0202
+  Albite(low)              -0.0203
+  Fayalite                  0.1221
+  Epidote                   0.0000
+  Kaolinite                -3.7668
+  Muscovite(ordered)       -4.2143
+
+
+  ***** Volume of minerals added or subtracted *****
+
+ Forsterite         -9.469406327E-05
+ Enstatite(alpha)   -5.482394634E-06
+ Anorthite          -2.204626130E-05
+ Ferropargasite     -6.177056324E-05
+ Anhydrite           5.281062915E-05
+ Clinochlore         2.761941898E-04
+ Albite(low)        -1.513631026E-04
+ Fayalite            1.299011998E-05
+ Epidote            -6.952846047E-12
+ Kaolinite          -1.000000000E-10
+ Muscovite(ordered) -1.000000000E-10
+
+ **************************************************************
+ ------> GRID LOCATION:     9:  1:  1
+
+  Temperature (C)    =    194.873
+  Porosity           =      0.081
+  Liquid Saturation  =      1.000
+  Liquid Density     =    868.292
+  Ionic Strength     =      0.579
+  Solution pH        =      4.603
+  Solution pe and Eh require H2(g) be included
+  Total Charge       = -1.760E-08
+
+ Total Aqueous Concentrations of Primary Species 
+ --------------------------------------- 
+
+   Species              Molality       Type 
+ H+                   4.5913E-04     Aqueous      
+ Al+++                8.6951E-10     Aqueous      
+ CO2(aq)              4.7517E-03     Aqueous      
+ Mg++                 1.9201E-02     Aqueous      
+ Ca++                 2.7098E-03     Aqueous      
+ Fe++                 7.0673E-03     Aqueous      
+ Fe+++                9.3486E-10     Aqueous      
+ Ba++                 2.0007E-07     Aqueous      
+ Sr++                 9.0032E-06     Aqueous      
+ Cl-                  5.4835E-01     Aqueous      
+ K+                   1.2005E-02     Aqueous      
+ Na+                  4.9988E-01     Aqueous      
+ SO4--                1.0965E-02     Aqueous      
+ O2(aq)               1.8006E-04     Aqueous      
+ B(OH)3(aq)           4.0014E-04     Aqueous      
+ HPO4--               1.7006E-06     Aqueous      
+ NO3-                 3.9014E-05     Aqueous      
+ H4SiO4(aq)           6.5888E-02     Aqueous      
+
+ Concentrations of Individual Species, Exchangers, and Surface Complexes 
+ ----------------------------------------------------------------------- 
+
+                           Log        Log                 Concentration     
+ Species              Molality  Activity      Molality    Mol/m^3 blk      Activity   Type
+
+                           Log        Log                                 Activity
+ Species              Molality   Activity      Molality      Activity   Coefficient    Type
+  H+                    -4.458     -4.603     3.479E-05     2.492E-05     7.162E-01  Aqueous 
+  Al+++                -15.107    -16.628     7.815E-16     2.355E-17     3.014E-02  Aqueous 
+  CO2(aq)               -2.326     -2.268     4.723E-03     5.397E-03     1.143E+00  Aqueous 
+  Mg++                  -1.717     -2.548     1.920E-02     2.834E-03     1.476E-01  Aqueous 
+  Ca++                  -2.883     -3.759     1.309E-03     1.743E-04     1.332E-01  Aqueous 
+  Fe++                  -3.228     -4.103     5.919E-04     7.883E-05     1.332E-01  Aqueous 
+  Fe+++                 -9.029    -10.550     9.349E-10     2.817E-11     3.014E-02  Aqueous 
+  Ba++                  -6.983     -7.963     1.041E-07     1.089E-08     1.046E-01  Aqueous 
+  Sr++                  -5.299     -6.279     5.027E-06     5.260E-07     1.046E-01  Aqueous 
+  Cl-                   -0.269     -0.570     5.383E-01     2.692E-01     5.002E-01  Aqueous 
+  K+                    -2.024     -2.325     9.469E-03     4.736E-03     5.002E-01  Aqueous 
+  Na+                   -0.307     -0.557     4.937E-01     2.773E-01     5.616E-01  Aqueous 
+  SO4--                 -2.413     -3.526     3.860E-03     2.979E-04     7.717E-02  Aqueous 
+  O2(aq)                -3.745     -3.687     1.801E-04     2.057E-04     1.143E+00  Aqueous 
+  B(OH)3(aq)            -3.398     -3.340     4.001E-04     4.572E-04     1.143E+00  Aqueous 
+  HPO4--                -8.211     -9.323     6.158E-09     4.752E-10     7.717E-02  Aqueous 
+  NO3-                  -4.409     -4.710     3.901E-05     1.951E-05     5.002E-01  Aqueous 
+  H4SiO4(aq)            -1.181     -1.123     6.589E-02     7.528E-02     1.143E+00  Aqueous 
+  HNO3(aq)              -9.012     -8.954     9.732E-10     1.112E-09     1.143E+00  Aqueous 
+  Al(OH)2+             -10.061    -10.315     8.695E-11     4.843E-11     5.570E-01  Aqueous 
+  AlO2-                 -9.535     -9.809     2.916E-10     1.553E-10     5.326E-01  Aqueous 
+  AlOH++               -12.363    -13.267     4.339E-13     5.405E-14     1.246E-01  Aqueous 
+  BaHCO3+               -9.194     -9.448     6.404E-10     3.567E-10     5.570E-01  Aqueous 
+  BaCl+                 -7.021     -7.275     9.537E-08     5.312E-08     5.570E-01  Aqueous 
+  BaCO3(aq)            -13.937    -13.879     1.156E-14     1.321E-14     1.143E+00  Aqueous 
+  BaOH+                -11.416    -11.671     3.834E-12     2.135E-12     5.570E-01  Aqueous 
+  HCO3-                 -4.547     -4.798     2.836E-05     1.593E-05     5.616E-01  Aqueous 
+  CO3--                 -9.583    -10.626     2.610E-10     2.367E-11     9.071E-02  Aqueous 
+  CaCl+                 -2.906     -3.160     1.241E-03     6.912E-04     5.570E-01  Aqueous 
+  CaCl2(aq)             -4.192     -4.135     6.421E-05     7.337E-05     1.143E+00  Aqueous 
+  CaOH+                 -6.886     -7.140     1.301E-07     7.246E-08     5.570E-01  Aqueous 
+  CaSO4(aq)             -4.019     -3.961     9.579E-05     1.094E-04     1.143E+00  Aqueous 
+  FeCl+                 -2.200     -2.454     6.311E-03     3.515E-03     5.570E-01  Aqueous 
+  FeCl2(aq)             -4.687     -4.629     2.057E-05     2.350E-05     1.143E+00  Aqueous 
+  FeOH+                 -5.188     -5.443     6.479E-06     3.609E-06     5.570E-01  Aqueous 
+  FeSO4(aq)             -3.863     -3.805     1.370E-04     1.565E-04     1.143E+00  Aqueous 
+  OH-                   -6.432     -6.710     3.700E-07     1.952E-07     5.274E-01  Aqueous 
+  HS-                  -81.085    -81.363     8.223E-82     4.337E-82     5.274E-01  Aqueous 
+  H2S(aq)              -79.375    -79.317     4.219E-80     4.820E-80     1.143E+00  Aqueous 
+  H2PO4-                -5.802     -6.052     1.579E-06     8.867E-07     5.616E-01  Aqueous 
+  H3PO4(aq)             -7.482     -7.424     3.298E-08     3.768E-08     1.143E+00  Aqueous 
+  HAlO2(aq)             -9.433     -9.375     3.690E-10     4.216E-10     1.143E+00  Aqueous 
+  HSO4-                 -3.339     -3.613     4.582E-04     2.440E-04     5.326E-01  Aqueous 
+  KCl(aq)               -2.632     -2.574     2.334E-03     2.667E-03     1.143E+00  Aqueous 
+  KOH(aq)               -8.407     -8.349     3.915E-09     4.474E-09     1.143E+00  Aqueous 
+  KSO4-                 -3.696     -3.970     2.014E-04     1.073E-04     5.326E-01  Aqueous 
+  NH3(aq)              -37.360    -37.302     4.364E-38     4.986E-38     1.143E+00  Aqueous 
+  NaAlO2(aq)            -9.915     -9.857     1.216E-10     1.389E-10     1.143E+00  Aqueous 
+  NaOH(aq)              -7.274     -7.217     5.315E-08     6.073E-08     1.143E+00  Aqueous 
+  NaSO4-                -2.207     -2.447     6.212E-03     3.572E-03     5.751E-01  Aqueous 
+  H2(aq)               -25.946    -25.888     1.132E-26     1.293E-26     1.143E+00  Aqueous 
+  CaHPO4(aq)            -8.216     -8.158     6.077E-09     6.943E-09     1.143E+00  Aqueous 
+  CaPO4-               -10.688    -10.962     2.051E-11     1.092E-11     5.326E-01  Aqueous 
+  FeCO3(aq)             -8.555     -8.497     2.787E-09     3.185E-09     1.143E+00  Aqueous 
+  FeH2PO4+              -7.208     -7.462     6.196E-08     3.451E-08     5.570E-01  Aqueous 
+  FeHPO4(aq)            -9.217     -9.160     6.061E-10     6.925E-10     1.143E+00  Aqueous 
+  FePO4-               -12.301    -12.575     4.998E-13     2.662E-13     5.326E-01  Aqueous 
+  KHPO4-                -7.856     -8.129     1.395E-08     7.428E-09     5.326E-01  Aqueous 
+  PO4---               -14.729    -17.266     1.868E-15     5.423E-18     2.904E-03  Aqueous 
+  S--                  -89.210    -90.190     6.164E-90     6.450E-91     1.046E-01  Aqueous 
+  Sr(CO3)(aq)          -11.832    -11.774     1.474E-12     1.684E-12     1.143E+00  Aqueous 
+  SrHCO3+               -6.923     -7.177     1.193E-07     6.647E-08     5.570E-01  Aqueous 
+  SrCl+                 -5.432     -5.686     3.699E-06     2.060E-06     5.570E-01  Aqueous 
+  SrOH+                 -9.712     -9.966     1.941E-10     1.081E-10     5.570E-01  Aqueous 
+  SrSO4(aq)             -6.801     -6.743     1.581E-07     1.807E-07     1.143E+00  Aqueous 
+
+  ****** Partial pressure of gases (bars) *****
+
+ CO2(g)               5.8276E-01
+ O2(g)                1.6858E-01
+
+  ***** Saturation state of minerals (log[Q/K] *****
+
+  Forsterite               -2.7222
+  Enstatite(alpha)         -0.4170
+  Anorthite                -6.5908
+  Ferropargasite          -10.9754
+  Anhydrite                 0.0105
+  Clinochlore               0.0193
+  Albite(low)              -0.0183
+  Fayalite                  0.1351
+  Epidote                   0.0000
+  Kaolinite                -3.4343
+  Muscovite(ordered)       -3.8540
+
+
+  ***** Volume of minerals added or subtracted *****
+
+ Forsterite         -9.436462743E-05
+ Enstatite(alpha)   -5.384724478E-06
+ Anorthite          -2.204626130E-05
+ Ferropargasite     -6.177056324E-05
+ Anhydrite           5.538182021E-05
+ Clinochlore         2.850027105E-04
+ Albite(low)        -1.596996947E-04
+ Fayalite            8.847417688E-06
+ Epidote            -9.329107173E-12
+ Kaolinite          -1.000000000E-10
+ Muscovite(ordered) -1.000000000E-10
+
+ **************************************************************
+ ------> GRID LOCATION:    10:  1:  1
+
+  Temperature (C)    =    214.857
+  Porosity           =      0.081
+  Liquid Saturation  =      1.000
+  Liquid Density     =    844.451
+  Ionic Strength     =      0.567
+  Solution pH        =      4.472
+  Solution pe and Eh require H2(g) be included
+  Total Charge       = -3.635E-08
+
+ Total Aqueous Concentrations of Primary Species 
+ --------------------------------------- 
+
+   Species              Molality       Type 
+ H+                   9.1173E-04     Aqueous      
+ Al+++                2.1500E-09     Aqueous      
+ CO2(aq)              4.7519E-03     Aqueous      
+ Mg++                 1.4683E-02     Aqueous      
+ Ca++                 2.0974E-03     Aqueous      
+ Fe++                 1.0056E-02     Aqueous      
+ Fe+++                9.9673E-10     Aqueous      
+ Ba++                 2.0008E-07     Aqueous      
+ Sr++                 9.0036E-06     Aqueous      
+ Cl-                  5.4837E-01     Aqueous      
+ K+                   1.2005E-02     Aqueous      
+ Na+                  5.0198E-01     Aqueous      
+ SO4--                1.0088E-02     Aqueous      
+ O2(aq)               1.8007E-04     Aqueous      
+ B(OH)3(aq)           4.0016E-04     Aqueous      
+ HPO4--               1.7007E-06     Aqueous      
+ NO3-                 3.9015E-05     Aqueous      
+ H4SiO4(aq)           7.1013E-02     Aqueous      
+
+ Concentrations of Individual Species, Exchangers, and Surface Complexes 
+ ----------------------------------------------------------------------- 
+
+                           Log        Log                 Concentration     
+ Species              Molality  Activity      Molality    Mol/m^3 blk      Activity   Type
+
+                           Log        Log                                 Activity
+ Species              Molality   Activity      Molality      Activity   Coefficient    Type
+  H+                    -4.315     -4.472     4.847E-05     3.376E-05     6.967E-01  Aqueous 
+  Al+++                -14.992    -16.606     1.018E-15     2.476E-17     2.434E-02  Aqueous 
+  CO2(aq)               -2.324     -2.268     4.739E-03     5.400E-03     1.140E+00  Aqueous 
+  Mg++                  -1.833     -2.717     1.468E-02     1.920E-03     1.308E-01  Aqueous 
+  Ca++                  -3.096     -4.026     8.023E-04     9.410E-05     1.173E-01  Aqueous 
+  Fe++                  -3.304     -4.235     4.960E-04     5.817E-05     1.173E-01  Aqueous 
+  Fe+++                 -9.001    -10.615     9.967E-10     2.426E-11     2.434E-02  Aqueous 
+  Ba++                  -7.086     -8.128     8.204E-08     7.449E-09     9.081E-02  Aqueous 
+  Sr++                  -5.372     -6.414     4.247E-06     3.856E-07     9.081E-02  Aqueous 
+  Cl-                   -0.272     -0.594     5.348E-01     2.546E-01     4.760E-01  Aqueous 
+  K+                    -2.044     -2.366     9.042E-03     4.304E-03     4.760E-01  Aqueous 
+  Na+                   -0.304     -0.573     4.961E-01     2.670E-01     5.383E-01  Aqueous 
+  SO4--                 -2.534     -3.716     2.923E-03     1.921E-04     6.573E-02  Aqueous 
+  O2(aq)                -3.745     -3.688     1.801E-04     2.052E-04     1.140E+00  Aqueous 
+  B(OH)3(aq)            -3.398     -3.341     4.002E-04     4.560E-04     1.140E+00  Aqueous 
+  HPO4--                -8.465     -9.647     3.427E-09     2.253E-10     6.573E-02  Aqueous 
+  NO3-                  -4.409     -4.731     3.901E-05     1.857E-05     4.760E-01  Aqueous 
+  H4SiO4(aq)            -1.149     -1.092     7.101E-02     8.092E-02     1.140E+00  Aqueous 
+  HNO3(aq)              -8.693     -8.636     2.028E-09     2.311E-09     1.140E+00  Aqueous 
+  Al(OH)2+              -9.645     -9.917     2.266E-10     1.209E-10     5.336E-01  Aqueous 
+  AlO2-                 -9.234     -9.527     5.839E-10     2.971E-10     5.088E-01  Aqueous 
+  AlOH++               -12.083    -13.044     8.265E-13     9.028E-14     1.092E-01  Aqueous 
+  BaHCO3+               -9.392     -9.665     4.052E-10     2.162E-10     5.336E-01  Aqueous 
+  BaCl+                 -6.929     -7.202     1.176E-07     6.277E-08     5.336E-01  Aqueous 
+  BaCO3(aq)            -14.404    -14.347     3.943E-15     4.493E-15     1.140E+00  Aqueous 
+  BaOH+                -11.346    -11.618     4.512E-12     2.408E-12     5.336E-01  Aqueous 
+  HCO3-                 -4.886     -5.155     1.301E-05     7.004E-06     5.383E-01  Aqueous 
+  CO3--                -10.153    -11.261     7.030E-11     5.486E-12     7.803E-02  Aqueous 
+  CaCl+                 -2.932     -3.205     1.169E-03     6.235E-04     5.336E-01  Aqueous 
+  CaCl2(aq)             -4.149     -4.093     7.092E-05     8.082E-05     1.140E+00  Aqueous 
+  CaOH+                 -6.923     -7.196     1.195E-07     6.374E-08     5.336E-01  Aqueous 
+  CaSO4(aq)             -4.256     -4.199     5.544E-05     6.318E-05     1.140E+00  Aqueous 
+  FeCl+                 -2.027     -2.300     9.399E-03     5.015E-03     5.336E-01  Aqueous 
+  FeCl2(aq)             -4.444     -4.388     3.595E-05     4.096E-05     1.140E+00  Aqueous 
+  FeOH+                 -5.167     -5.440     6.805E-06     3.631E-06     5.336E-01  Aqueous 
+  FeSO4(aq)             -3.927     -3.870     1.184E-04     1.349E-04     1.140E+00  Aqueous 
+  OH-                   -6.468     -6.766     3.402E-07     1.713E-07     5.036E-01  Aqueous 
+  HS-                  -76.702    -77.000     1.985E-77     9.995E-78     5.036E-01  Aqueous 
+  H2S(aq)              -74.767    -74.711     1.709E-75     1.947E-75     1.140E+00  Aqueous 
+  H2PO4-                -5.804     -6.073     1.571E-06     8.457E-07     5.383E-01  Aqueous 
+  H3PO4(aq)             -7.204     -7.147     6.249E-08     7.121E-08     1.140E+00  Aqueous 
+  HAlO2(aq)             -9.005     -8.949     9.879E-10     1.126E-09     1.140E+00  Aqueous 
+  HSO4-                 -3.055     -3.348     8.820E-04     4.487E-04     5.088E-01  Aqueous 
+  KCl(aq)               -2.557     -2.500     2.772E-03     3.159E-03     1.140E+00  Aqueous 
+  KOH(aq)               -8.345     -8.288     4.518E-09     5.149E-09     1.140E+00  Aqueous 
+  KSO4-                 -3.719     -4.012     1.911E-04     9.720E-05     5.088E-01  Aqueous 
+  NH3(aq)              -35.081    -35.024     8.304E-36     9.462E-36     1.140E+00  Aqueous 
+  NaAlO2(aq)            -9.455     -9.398     3.508E-10     3.997E-10     1.140E+00  Aqueous 
+  NaOH(aq)              -7.144     -7.087     7.185E-08     8.188E-08     1.140E+00  Aqueous 
+  NaSO4-                -2.228     -2.486     5.919E-03     3.267E-03     5.520E-01  Aqueous 
+  H2(aq)               -24.541    -24.484     2.876E-25     3.278E-25     1.140E+00  Aqueous 
+  CaHPO4(aq)            -8.457     -8.400     3.494E-09     3.981E-09     1.140E+00  Aqueous 
+  CaPO4-               -10.943    -11.236     1.141E-11     5.803E-12     5.088E-01  Aqueous 
+  FeCO3(aq)             -9.061     -9.004     8.696E-10     9.909E-10     1.140E+00  Aqueous 
+  FeH2PO4+              -7.342     -7.615     4.552E-08     2.429E-08     5.336E-01  Aqueous 
+  FeHPO4(aq)            -9.501     -9.444     3.157E-10     3.597E-10     1.140E+00  Aqueous 
+  FePO4-               -12.698    -12.991     2.006E-13     1.020E-13     5.088E-01  Aqueous 
+  KHPO4-                -7.842     -8.135     1.440E-08     7.326E-09     5.088E-01  Aqueous 
+  PO4---               -15.192    -17.884     6.425E-16     1.308E-18     2.035E-03  Aqueous 
+  S--                  -84.734    -85.776     1.846E-85     1.676E-86     9.081E-02  Aqueous 
+  Sr(CO3)(aq)          -12.254    -12.197     5.575E-13     6.353E-13     1.140E+00  Aqueous 
+  SrHCO3+               -7.052     -7.324     8.881E-08     4.739E-08     5.336E-01  Aqueous 
+  SrCl+                 -5.341     -5.614     4.561E-06     2.434E-06     5.336E-01  Aqueous 
+  SrOH+                 -9.617     -9.889     2.418E-10     1.290E-10     5.336E-01  Aqueous 
+  SrSO4(aq)             -6.973     -6.917     1.063E-07     1.211E-07     1.140E+00  Aqueous 
+
+  ****** Partial pressure of gases (bars) *****
+
+ CO2(g)               5.4259E-01
+ O2(g)                1.4158E-01
+
+  ***** Saturation state of minerals (log[Q/K] *****
+
+  Forsterite               -2.5488
+  Enstatite(alpha)         -0.3810
+  Anorthite                -6.1972
+  Ferropargasite          -10.5909
+  Anhydrite                 0.0108
+  Clinochlore               0.0186
+  Albite(low)              -0.0167
+  Fayalite                  0.1443
+  Epidote                   0.0000
+  Kaolinite                -3.2201
+  Muscovite(ordered)       -3.6311
+
+
+  ***** Volume of minerals added or subtracted *****
+
+ Forsterite         -9.413967601E-05
+ Enstatite(alpha)   -5.203012335E-06
+ Anorthite          -2.204626130E-05
+ Ferropargasite     -6.177056324E-05
+ Anhydrite           5.660926213E-05
+ Clinochlore         2.947383393E-04
+ Albite(low)        -1.689137298E-04
+ Fayalite            4.441989142E-06
+ Epidote            -9.617987413E-12
+ Kaolinite          -1.000000000E-10
+ Muscovite(ordered) -1.000000000E-10
+

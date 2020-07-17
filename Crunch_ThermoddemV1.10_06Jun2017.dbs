@@ -3199,7 +3199,7 @@ Enstatite(alpha)
 +----------------------------------------------------
 Epidote
   label = default
-  type = irreversible
+  type = tst
   rate(25C) = -3.00
   activation = 0.0  (kcal / mole)
   dependence :
@@ -3262,7 +3262,7 @@ Faustite
 +----------------------------------------------------
 Fayalite
   label = default
-  type = irreversible
+  type = tst
   rate(25C) = -3.00
   activation = 0.0  (kcal / mole)
   dependence :
@@ -4137,7 +4137,7 @@ Kalsilite(beta)
 +----------------------------------------------------
 Kaolinite
   label = default
-  type = irreversible
+  type = tst
   rate(25C) = -3.00
   activation = 0.0  (kcal / mole)
   dependence :
@@ -4690,7 +4690,7 @@ Muscovite(disordered)
 +----------------------------------------------------
 Muscovite(ordered)
   label = default
-  type = irreversible
+  type = tst
   rate(25C) = -3.00
   activation = 0.0  (kcal / mole)
   dependence :

@@ -1,5 +1,5 @@
 TITLE
-Hydrothermal Fluid Flow
+Hydrothermal Fluid Flow in a 1D model
 END
  
 RUNTIME
@@ -11,24 +11,30 @@ debye-huckel                 true
 database_sweep               false
 speciate_only                false
 screen_output                10
-hindmarsh                    false
+hindmarsh                    true
+gimrt                        false
 BurchRateLaw                 false
 database                     Crunch_ThermoddemV1.10_06Jun2017.dbs
 graphics                     tecplot
 END
+
+DISCRETIZATION
+distance_units               meters
+xzones                       10    350
+END
  
 OUTPUT
 time_units                   years
-spatial_profile              1.0  2.0   3.5
-!1000 10000 50000 100000 
-!500000 750000 1000000 
-time_series                  output.out 1 
-time_series_print            pH  Ca++    SO4--   Mg++  H4SiO4(aq)
+spatial_profile              0.1   1.0    2.0     3.5    7.0  10.5
+time_series                  output1.out 1
+time_series                  output2.out 5
+time_series                  output3.out 10
+time_series_print            pH    Ca++    K+   SO4--   Mg++    H4SiO4(aq)
 !time_series_interval         1
 END
 
 CONDITION                    Seawater  
-temperature                  200.0
+temperature                  25.0
 pH                           8.15  
 CO2(aq)                      4.75e-3
 O2(aq)                       180.0e-06 
@@ -39,6 +45,8 @@ Fe++                         2.600e-8
 Fe+++                        1.000e-13
 Ca++                         10.4e-03
 K+                           1.200e-02
+Ba++                         0.2E-6
+Sr++                         90E-7
 SO4--                        28E-03
 !SiO2(aq)                     0.17E-3
 B(OH)3(aq)                   0.400e-03
@@ -49,50 +57,47 @@ Methane(aq)                  1e-08
 Cl-                          charge
 NO3-                         3.9e-5
 H4SiO4(aq)                   0.17e-3
-! Solid phase.
+! SOLID PHASE
 Forsterite                   0.28   0.1
 Enstatite(alpha)             0.21   0.1 
 Anorthite                    7e-4   0.1
 Ferropargasite               0.07   0.1
 Anhydrite                    0.2    0.1
-Clinochlore                  7.0E-2   0.1
+Clinochlore                  1.0E-10   0.1
 Albite(low)                  0.13   0.1
+
+Fayalite                     0.028  0.1
+Epidote                      1.0E-9  0.1
+Kaolinite                    1.0E-10  0.1
+Muscovite(ordered)           1.0E-10  0.1
 END
 
 MINERALS
-Forsterite                   -rate -12.0
-Enstatite(alpha)             -rate -12.0
-Anorthite                    -rate -11.0
-Ferropargasite               -rate -12.0
-Anhydrite                    -rate -11.0
-Clinochlore                  -rate -11.0
-Albite(low)                  -rate -11.0
-END
+Forsterite                   -rate -7.0
+Enstatite(alpha)             -rate -8.0
+Anorthite                    -rate -8.0
+Ferropargasite               -rate -8.0
+Anhydrite                    -rate -6.0
+Clinochlore                  -rate -6.0
+Albite(low)                  -rate -6.0
 
-AQUEOUS_KINETICS
+Fayalite                     -rate -7.0
+Epidote                      -rate -6.0
+Kaolinite                    -rate -8.0
+Muscovite(ordered)           -rate -8.0
 END
  
 POROSITY
 fix_porosity                 0.30
 END
 
-!EROSION/BURIAL
-!time_units                  years
-!distance_units              meters
-!erode_x                     0.00015
-!END  
-
-DISCRETIZATION
-xzones                       35    100
-END
- 
 INITIAL_CONDITIONS
-Seawater                     1-35
+Seawater                     1-10
 END
  
 TEMPERATURE
 !set_temperature           200.0
-temperature_gradient     0.0571
+temperature_gradient       0.0571
 END
  
 PRIMARY_SPECIES
@@ -105,6 +110,8 @@ Ca++
 !Ca44++
 Fe++
 Fe+++
+Ba++
+Sr++
 Cl-
 K+
 !H2S(aq)
@@ -130,6 +137,10 @@ Al(OH)2+
 !Al(S34O4)2-
 AlO2-                                                                   
 AlOH++
+BaHCO3+
+BaCl+
+BaCO3(aq)
+BaOH+
 HCO3-    
 CO3--                                                                    
 CaCl+
@@ -189,6 +200,11 @@ S--
 !S34--
 !BO2- 
 !MgB(OH)4+
+Sr(CO3)(aq)
+SrHCO3+
+SrCl+
+SrOH+
+SrSO4(aq)
 END
 
 GASES
@@ -214,3 +230,12 @@ time_units         years
 constant_flow      0.0571
 END
  
+!AQUEOUS_KINETICS
+!END
+
+!EROSION/BURIAL
+!time_units                  years
+!distance_units              meters
+!erode_x                     0.00015
+!END
+
