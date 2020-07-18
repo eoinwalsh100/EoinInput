@@ -5880,7 +5880,7 @@ Strontianite
 +----------------------------------------------------
 Sudoite
   label = default
-  type = irreversible
+  type = tst
   rate(25C) = -3.00
   activation = 0.0  (kcal / mole)
   dependence :
