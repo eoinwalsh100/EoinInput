@@ -1,0 +1,468 @@
+
+  ************************** CRUNCH ******************************
+  ************************ VERSION 1.0 ***************************
+
+                      Author:  C.I. STEEFEL 
+  COPYRIGHT (c) 2000. The Regents of the University of California. 
+                       All Rights Reserved 
+
+  ****************************************************************
+  This work was produced at the University of California, Lawrence 
+  Livermore National Laboratory (UC LLNL) under contract no. W-7405-ENG-48 
+  (Contract 48) between the U.S. Department of Energy (DOE) and The Regents 
+  of the University of California (University) for the operation of UC LLNL. 
+  Copyright is reserved to the University for purposes of controlled dissem- 
+  ination, commercialization through formal licensing, or other disposition 
+  under terms of Contract 48; DOE policies, regulations and orders; and U.S. 
+  statutes. The rights of the Federal Government are reserved under Contract 
+  48 subject to the restrictions agreed upon by the DOE and University as 
+  allowed under DOE Acquisition Letter 97-1. 
+
+                                DISCLAIMER                            
+  This work was prepared as an account of work sponsored by an agency of the
+  United States Government. Neither the United States Government nor the 
+  University of California nor any of their employees, makes any warranty, 
+  express or implied, or assumes any liability or responsibility for the 
+  accuracy, completeness, or usefulness of any information, apparatus, product,
+  or process disclosed, or represents that its use would not infringe 
+  privately-owned rights.  Reference herein to any specific commercial products,
+  process, or service by trade name, trademark, manufacturer or otherwise does 
+  not necessarily constitute or imply its endorsement, recommendation, or 
+  favoring by the United States Government or the University of California. 
+  The views and opinions of authors expressed herein do not necessarily state 
+  or reflect those of the United States Government or the University of 
+  California, and shall not be used for advertising or product endorsement 
+  purposes. 
+  ****************************************************************
+
+
+  Hydrothermal Fluid Flow in a 1D model                                   
+
+
+
+   ---> Using database: Crunch_ThermoddemV1.10_06Jun2017.dbs                                                                
+
+
+ Number of components =                    19
+
+  1 H+                
+  2 Al+++             
+  3 CO2(aq)           
+  4 Mg++              
+  5 Ca++              
+  6 Fe++              
+  7 Fe+++             
+  8 Ba++              
+  9 Sr++              
+ 10 Cl-               
+ 11 F-                
+ 12 K+                
+ 13 Na+               
+ 14 SO4--             
+ 15 O2(aq)            
+ 16 B(OH)3(aq)        
+ 17 HPO4--            
+ 18 NO3-              
+ 19 H4SiO4(aq)        
+
+ Number of secondary species in input file =           57
+
+  1 HNO3(aq)          
+  2 Al(OH)2+          
+  3 AlO2-             
+  4 AlOH++            
+  5 BaHCO3+           
+  6 BaCl+             
+  7 BaCO3(aq)         
+  8 BaOH+             
+  9 HCO3-             
+ 10 CO3--             
+ 11 CaCl+             
+ 12 CaCl2(aq)         
+ 13 CaOH+             
+ 14 CaSO4(aq)         
+ 15 FeCl+             
+ 16 FeCl2(aq)         
+ 17 FeOH+             
+ 18 FeSO4(aq)         
+ 19 OH-               
+ 20 HS-               
+ 21 S2O3--            
+ 22 H2PO4-            
+ 23 H3PO4(aq)         
+ 24 HAlO2(aq)         
+ 25 HSO4-             
+ 26 KCl(aq)           
+ 27 KOH(aq)           
+ 28 KSO4-             
+ 29 NH3(aq)           
+ 30 NaAlO2(aq)        
+ 31 NaOH(aq)          
+ 32 NaSO4-            
+ 33 H2(aq)            
+ 34 CaHPO4(aq)        
+ 35 CaPO4-            
+ 36 FeCO3(aq)         
+ 37 FeH2PO4+          
+ 38 FeHPO4(aq)        
+ 39 FePO4-            
+ 40 KHPO4-            
+ 41 PO4---            
+ 42 Sr(CO3)(aq)       
+ 43 SrHCO3+           
+ 44 SrCl+             
+ 45 SrOH+             
+ 46 SrSO4(aq)         
+ 47 AlH3SiO4++        
+ 48 Si2O2(OH)5-       
+ 49 Si2O3(OH)4--      
+ 50 Si3O5(OH)5---     
+ 51 Si3O6(OH)3---     
+ 52 Si4O12H4----      
+ 53 Si4O6(OH)6--      
+ 54 Si4O7(OH)6----    
+ 55 Si4O8(OH)4----    
+ 56 Si6O15------      
+ 57 SiF6--            
+
+ Number of gases in input file =                1
+
+  1 CO2(g)            
+
+
+ Number of kinetic minerals =           16
+
+
+  Using database file: Crunch_ThermoddemV1.10_06Jun2017.dbs
+
+  temperature interpolation coefficients
+                  ln(T+Tk)        1         T+Tk      (T+Tk)**-1   (t+tk)**-2
+
+    HOMOGENEOUS REACTIONS
+
+ Species         log K         Stoichiometric Coefficients
+                            H+     Al+++  CO2(aq Mg++   Ca++   Fe++   Fe+++  Ba++   Sr++   Cl-    F-     K+     Na+    SO4--  O2(aq) B(OH)3 HPO4-- NO3-   H4SiO4 
+ HNO3(aq)      1.5231E+00   1.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   1.00   0.00
+ Al(OH)2+      1.2195E+01  -2.00   1.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00
+ AlO2-         2.5529E+01  -4.00   1.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00
+ AlOH++        5.6551E+00  -1.00   1.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00
+ BaHCO3+       5.7650E+00  -1.00   0.00   1.00   0.00   0.00   0.00   0.00   1.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00
+ BaCl+         6.3884E-01   0.00   0.00   0.00   0.00   0.00   0.00   0.00   1.00   0.00   1.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00
+ BaCO3(aq)     1.4688E+01  -2.00   0.00   1.00   0.00   0.00   0.00   0.00   1.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00
+ BaOH+         1.4799E+01  -1.00   0.00   0.00   0.00   0.00   0.00   0.00   1.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00
+ HCO3-         6.5468E+00  -1.00   0.00   1.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00
+ CO3--         1.7137E+01  -2.00   0.00   1.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00
+ CaCl+         3.5344E-01   0.00   0.00   0.00   0.00   1.00   0.00   0.00   0.00   0.00   1.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00
+ CaCl2(aq)     4.7990E-01   0.00   0.00   0.00   0.00   1.00   0.00   0.00   0.00   0.00   2.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00
+ CaOH+         1.3918E+01  -1.00   0.00   0.00   0.00   1.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00
+ CaSO4(aq)    -2.2860E+00   0.00   0.00   0.00   0.00   1.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   1.00   0.00   0.00   0.00   0.00   0.00
+ FeCl+         4.3043E-01   0.00   0.00   0.00   0.00   0.00   1.00   0.00   0.00   0.00   1.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00
+ FeCl2(aq)     1.8111E+00   0.00   0.00   0.00   0.00   0.00   1.00   0.00   0.00   0.00   2.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00
+ FeOH+         1.0304E+01  -1.00   0.00   0.00   0.00   0.00   1.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00
+ FeSO4(aq)    -2.3620E+00   0.00   0.00   0.00   0.00   0.00   1.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   1.00   0.00   0.00   0.00   0.00   0.00
+ OH-           1.4858E+01  -1.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00
+ HS-           1.5089E+02   1.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   1.00  -2.00   0.00   0.00   0.00   0.00
+ S2O3--        1.4579E+02   2.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   2.00  -2.00   0.00   0.00   0.00   0.00
+ H2PO4-       -7.3048E+00   1.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   1.00   0.00   0.00
+ H3PO4(aq)    -9.3443E+00   2.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   1.00   0.00   0.00
+ HAlO2(aq)     1.8509E+01  -3.00   1.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00
+ HSO4-        -1.7086E+00   1.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   1.00   0.00   0.00   0.00   0.00   0.00
+ KCl(aq)       5.2861E-01   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   1.00   0.00   1.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00
+ KOH(aq)       1.5445E+01  -1.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   1.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00
+ KSO4-        -8.7831E-01   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   1.00   0.00   1.00   0.00   0.00   0.00   0.00   0.00
+ NH3(aq)       6.7662E+01   1.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00  -2.00   0.00   0.00   1.00   0.00
+ NaAlO2(aq)    2.6392E+01  -4.00   1.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   1.00   0.00   0.00   0.00   0.00   0.00   0.00
+ NaOH(aq)      1.5524E+01  -1.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   1.00   0.00   0.00   0.00   0.00   0.00   0.00
+ NaSO4-       -1.0268E+00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   1.00   1.00   0.00   0.00   0.00   0.00   0.00
+ H2(aq)        5.0067E+01   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00  -0.50   0.00   0.00   0.00   0.00
+ CaHPO4(aq)   -2.6888E+00   0.00   0.00   0.00   0.00   1.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   1.00   0.00   0.00
+ CaPO4-        6.3582E+00  -1.00   0.00   0.00   0.00   1.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   1.00   0.00   0.00
+ FeCO3(aq)     1.1894E+01  -2.00   0.00   1.00   0.00   0.00   1.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00
+ FeH2PO4+     -9.9983E+00   1.00   0.00   0.00   0.00   0.00   1.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   1.00   0.00   0.00
+ FeHPO4(aq)   -3.6973E+00   0.00   0.00   0.00   0.00   0.00   1.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   1.00   0.00   0.00
+ FePO4-        4.3214E+00  -1.00   0.00   0.00   0.00   0.00   1.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   1.00   0.00   0.00
+ KHPO4-       -4.1539E-01   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   1.00   0.00   0.00   0.00   0.00   1.00   0.00   0.00
+ PO4---        1.2614E+01  -1.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   1.00   0.00   0.00
+ Sr(CO3)(aq)   1.4616E+01  -2.00   0.00   1.00   0.00   0.00   0.00   0.00   0.00   1.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00
+ SrHCO3+       5.6823E+00  -1.00   0.00   1.00   0.00   0.00   0.00   0.00   0.00   1.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00
+ SrCl+         3.0090E-01   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   1.00   1.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00
+ SrOH+         1.4511E+01  -1.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   1.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00
+ SrSO4(aq)    -2.2236E+00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   1.00   0.00   0.00   0.00   0.00   1.00   0.00   0.00   0.00   0.00   0.00
+ AlH3SiO4++    3.6069E+00  -1.00   1.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   1.00
+ Si2O2(OH)5-   8.8639E+00  -1.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   2.00
+ Si2O3(OH)4--  2.0327E+01  -2.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   2.00
+ Si3O5(OH)5--  3.0815E+01  -3.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   3.00
+ Si3O6(OH)3--  3.0815E+01  -3.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   3.00
+ Si4O12H4----  4.1087E+01  -4.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   4.00
+ Si4O6(OH)6--  1.5778E+01  -2.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   4.00
+ Si4O7(OH)6--  4.0979E+01  -4.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   4.00
+ Si4O8(OH)4--  4.0979E+01  -4.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   4.00
+ Si6O15------  6.4557E+01  -6.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   6.00
+ SiF6--       -2.7196E+01   4.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   6.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   1.00
+
+      MINERAL REACTIONS
+
+ Mineral         log K         Stoichiometric Coefficients
+                            H+     Al+++  CO2(aq Mg++   Ca++   Fe++   Fe+++  Ba++   Sr++   Cl-    F-     K+     Na+    SO4--  O2(aq) B(OH)3 HPO4-- NO3-   H4SiO4 
+ Forsterite    3.1831E+01  -4.00   0.00   0.00   2.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   1.00
+ Enstatite(al  1.3252E+01  -2.00   0.00   0.00   1.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   1.00
+ Anorthite     2.8734E+01  -8.00   2.00   0.00   0.00   1.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   2.00
+ Ferropargasi  9.5939E+01 -22.00   3.00   0.00   0.00   2.00   4.00   0.00   0.00   0.00   0.00   0.00   0.00   1.00   0.00   0.00   0.00   0.00   0.00   6.00
+ Anhydrite    -4.2476E+00   0.00   0.00   0.00   0.00   1.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   1.00   0.00   0.00   0.00   0.00   0.00
+ Clinochlore   7.0528E+01 -16.00   2.00   0.00   5.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   3.00
+ Albite(low)   4.2492E+00  -4.00   1.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   1.00   0.00   0.00   0.00   0.00   0.00   3.00
+ Fayalite      2.1367E+01  -4.00   0.00   0.00   0.00   0.00   2.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   1.00
+ Epidote       3.8351E+01 -13.00   2.00   0.00   0.00   2.00   0.00   1.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   3.00
+ Kaolinite     8.9662E+00  -6.00   2.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   2.00
+ Muscovite(or  1.5160E+01 -10.00   3.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   1.00   0.00   0.00   0.00   0.00   0.00   0.00   3.00
+ Sudoite       4.5723E+01 -16.00   4.00   0.00   2.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   3.00
+ Saponite(Mg)  3.2826E+01  -7.36   0.34   0.00   3.17   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   3.66
+ Scolecite     2.0171E+01  -8.00   2.00   0.00   0.00   1.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   3.00
+ Pyrite        2.3754E+02   2.00   0.00   0.00   0.00   0.00   1.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   2.00  -3.50   0.00   0.00   0.00   0.00
+ Quartz(alpha -4.0382E+00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   1.00
+
+     GAS REACTIONS
+
+ Gases           log K         Stoichiometric Coefficients
+                            H+     Al+++  CO2(aq Mg++   Ca++   Fe++   Fe+++  Ba++   Sr++   Cl-    F-     K+     Na+    SO4--  O2(aq) B(OH)3 HPO4-- NO3-   H4SiO4 
+ CO2(g)       -1.1498E+00   0.00   0.00   1.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00
+ O2(g)        -2.6820E+00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   1.00   0.00   0.00   0.00   0.00
+
+  ***KINETIC INPUTS***
+
+   MINERAL
+
+
+  ******  GEOCHEMICAL CONDITIONS INPUT  ******
+
+
+  Condition Label: seawater
+
+
+  Primary species    itype     guess      Total conc.  Constraint phase
+  H+                   7    7.0795E-09    0.0000E+00                       
+  Al+++                1    1.0000E-06    3.7000E-08                       
+  CO2(aq)              1    1.0000E-06    4.7500E-03                       
+  Mg++                 1    1.0000E-06    5.1100E-02                       
+  Ca++                 1    1.0000E-06    1.0400E-02                       
+  Fe++                 1    1.0000E-06    2.6000E-08                       
+  Fe+++                1    1.0000E-06    1.0000E-13                       
+  Ba++                 1    1.0000E-06    2.0000E-07                       
+  Sr++                 1    1.0000E-06    9.0000E-06                       
+  Cl-                  2    1.0000E-06    0.0000E+00                       
+  F-                   1    1.0000E-06    6.8000E-05                       
+  K+                   1    1.0000E-06    1.2000E-02                       
+  Na+                  1    1.0000E-06    4.7400E-01                       
+  SO4--                1    1.0000E-06    2.8000E-02                       
+  O2(aq)               1    1.0000E-06    1.8000E-04                       
+  B(OH)3(aq)           1    1.0000E-06    4.0000E-04                       
+  HPO4--               1    1.0000E-06    1.7000E-06                       
+  NO3-                 1    1.0000E-06    3.9000E-05                       
+  H4SiO4(aq)           1    1.0000E-06    1.7000E-04                       
+
+  Porosity for this chemical condition =   0.0690
+
+
+
+   ********  SPECIATION OF GEOCHEMICAL CONDITIONS  ********
+
+
+ *********************************************
+  ---> GEOCHEMICAL CONDITION: seawater
+
+  Temperature (C)         =      2.000
+  Porosity                =      0.069
+  Liquid Saturation       =      1.000
+  Liquid Density (kg/m^3) =    999.968
+  Solid Density (kg/m^3)  =   3152.690
+  Solid:Solution Ratio    =  42539.836
+  Ionic Strength          =      0.668
+  Solution pH             =      8.150
+  Solution pe and Eh require H2(g) be included
+  Total Charge            =  9.517E-17
+
+ Total Aqueous Concentrations of Primary Species  
+ --------------------------------------- 
+
+ Species                Molality     Constraint    Constraint Phase 
+ H+                  -4.7416E-03     Activity                        
+ Al+++                3.7000E-08     Total                           
+ CO2(aq)              4.7500E-03     Total                           
+ Mg++                 5.1100E-02     Total                           
+ Ca++                 1.0400E-02     Total                           
+ Fe++                 2.6000E-08     Total                           
+ Fe+++                1.0000E-13     Total                           
+ Ba++                 2.0000E-07     Total                           
+ Sr++                 9.0000E-06     Total                           
+ Cl-                  5.4817E-01     Charge                          
+ F-                   6.8000E-05     Total                           
+ K+                   1.2000E-02     Total                           
+ Na+                  4.7400E-01     Total                           
+ SO4--                2.8000E-02     Total                           
+ O2(aq)               1.8000E-04     Total                           
+ B(OH)3(aq)           4.0000E-04     Total                           
+ HPO4--               1.7000E-06     Total                           
+ NO3-                 3.9000E-05     Total                           
+ H4SiO4(aq)           1.7000E-04     Total                           
+
+ Concentrations of Individual Species, Exchangers, and Surface Complexes 
+ ----------------------------------------------------------------------- 
+
+                           Log        Log                                 Activity
+ Species              Molality   Activity      Molality      Activity   Coefficient    Type
+  H+                    -8.056     -8.150     8.782E-09     7.079E-09     8.061E-01  Aqueous 
+  Al+++                -13.668    -14.712     2.148E-14     1.940E-15     9.032E-02  Aqueous 
+  CO2(aq)               -4.170     -4.103     6.757E-05     7.881E-05     1.166E+00  Aqueous 
+  Mg++                  -1.292     -1.857     5.110E-02     1.389E-02     2.717E-01  Aqueous 
+  Ca++                  -2.052     -2.648     8.868E-03     2.248E-03     2.534E-01  Aqueous 
+  Fe++                  -7.793     -8.389     1.610E-08     4.080E-09     2.534E-01  Aqueous 
+  Fe+++                -13.000    -14.044     1.000E-13     9.032E-15     9.032E-02  Aqueous 
+  Ba++                  -6.713     -7.380     1.938E-07     4.173E-08     2.153E-01  Aqueous 
+  Sr++                  -5.103     -5.770     7.884E-06     1.697E-06     2.153E-01  Aqueous 
+  Cl-                   -0.262     -0.461     5.469E-01     3.459E-01     6.324E-01  Aqueous 
+  F-                    -4.167     -4.351     6.800E-05     4.456E-05     6.553E-01  Aqueous 
+  K+                    -1.952     -2.151     1.117E-02     7.066E-03     6.324E-01  Aqueous 
+  Na+                   -0.336     -0.501     4.617E-01     3.156E-01     6.836E-01  Aqueous 
+  SO4--                 -1.838     -2.594     1.453E-02     2.548E-03     1.753E-01  Aqueous 
+  O2(aq)                -3.745     -3.678     1.800E-04     2.099E-04     1.166E+00  Aqueous 
+  B(OH)3(aq)            -3.398     -3.331     4.000E-04     4.665E-04     1.166E+00  Aqueous 
+  HPO4--                -5.864     -6.621     1.367E-06     2.396E-07     1.753E-01  Aqueous 
+  NO3-                  -4.409     -4.608     3.900E-05     2.466E-05     6.324E-01  Aqueous 
+  H4SiO4(aq)            -3.770     -3.703     1.700E-04     1.982E-04     1.166E+00  Aqueous 
+  HNO3(aq)             -14.348    -14.281     4.489E-15     5.236E-15     1.166E+00  Aqueous 
+  Al(OH)2+             -10.440    -10.607     3.633E-11     2.469E-11     6.798E-01  Aqueous 
+  AlO2-                 -7.460     -7.641     3.466E-08     2.286E-08     6.596E-01  Aqueous 
+  AlOH++               -11.601    -12.217     2.504E-12     6.064E-13     2.422E-01  Aqueous 
+  BaHCO3+               -8.930     -9.098     1.174E-09     7.979E-10     6.798E-01  Aqueous 
+  BaCl+                 -8.312     -8.480     4.877E-09     3.315E-09     6.798E-01  Aqueous 
+  BaCO3(aq)             -9.938     -9.871     1.154E-10     1.345E-10     1.166E+00  Aqueous 
+  BaOH+                -13.861    -14.029     1.378E-14     9.364E-15     6.798E-01  Aqueous 
+  HCO3-                 -2.335     -2.500     4.624E-03     3.161E-03     6.836E-01  Aqueous 
+  CO3--                 -4.231     -4.940     5.871E-05     1.148E-05     1.955E-01  Aqueous 
+  CaCl+                 -3.295     -3.463     5.068E-04     3.445E-04     6.798E-01  Aqueous 
+  CaCl2(aq)             -4.117     -4.050     7.635E-05     8.904E-05     1.166E+00  Aqueous 
+  CaOH+                 -8.249     -8.416     5.641E-09     3.834E-09     6.798E-01  Aqueous 
+  CaSO4(aq)             -3.023     -2.956     9.485E-04     1.106E-03     1.166E+00  Aqueous 
+  FeCl+                 -9.113     -9.281     7.705E-10     5.238E-10     6.798E-01  Aqueous 
+  FeCl2(aq)            -11.189    -11.123     6.466E-12     7.541E-12     1.166E+00  Aqueous 
+  FeOH+                -10.375    -10.543     4.214E-11     2.864E-11     6.798E-01  Aqueous 
+  FeSO4(aq)             -8.688     -8.621     2.051E-09     2.392E-09     1.166E+00  Aqueous 
+  OH-                   -6.525     -6.708     2.986E-07     1.957E-07     6.553E-01  Aqueous 
+  HS-                 -154.091   -154.275     8.102-155     5.309-155     6.553E-01  Aqueous 
+  S2O3--              -159.235   -159.926     5.826-160     1.185-160     2.034E-01  Aqueous 
+  H2PO4-                -7.300     -7.466     5.006E-08     3.422E-08     6.836E-01  Aqueous 
+  H3PO4(aq)            -13.643    -13.576     2.275E-14     2.653E-14     1.166E+00  Aqueous 
+  HAlO2(aq)             -8.838     -8.771     1.452E-09     1.693E-09     1.166E+00  Aqueous 
+  HSO4-                 -8.855     -9.035     1.398E-09     9.220E-10     6.596E-01  Aqueous 
+  KCl(aq)               -3.207     -3.141     6.204E-04     7.235E-04     1.166E+00  Aqueous 
+  KOH(aq)               -9.513     -9.446     3.069E-10     3.579E-10     1.166E+00  Aqueous 
+  KSO4-                 -3.686     -3.866     2.062E-04     1.360E-04     6.596E-01  Aqueous 
+  NH3(aq)              -73.131    -73.064     7.399E-74     8.629E-74     1.166E+00  Aqueous 
+  NaAlO2(aq)            -9.072     -9.005     8.471E-10     9.879E-10     1.166E+00  Aqueous 
+  NaOH(aq)              -7.942     -7.875     1.143E-08     1.333E-08     1.166E+00  Aqueous 
+  NaSO4-                -1.910     -2.068     1.231E-02     8.552E-03     6.945E-01  Aqueous 
+  H2(aq)               -48.295    -48.228     5.074E-49     5.918E-49     1.166E+00  Aqueous 
+  CaHPO4(aq)            -6.647     -6.580     2.255E-07     2.630E-07     1.166E+00  Aqueous 
+  CaPO4-                -7.296     -7.477     5.056E-08     3.335E-08     6.596E-01  Aqueous 
+  FeCO3(aq)             -8.154     -8.087     7.017E-09     8.183E-09     1.166E+00  Aqueous 
+  FeH2PO4+             -12.994    -13.162     1.014E-13     6.894E-14     6.798E-01  Aqueous 
+  FeHPO4(aq)           -11.379    -11.313     4.175E-12     4.869E-12     1.166E+00  Aqueous 
+  FePO4-               -11.000    -11.181     9.989E-12     6.588E-12     6.596E-01  Aqueous 
+  KHPO4-                -8.175     -8.356     6.680E-09     4.406E-09     6.596E-01  Aqueous 
+  PO4---                -9.351    -11.084     4.454E-10     8.237E-12     1.850E-02  Aqueous 
+  Sr(CO3)(aq)           -8.256     -8.190     5.541E-09     6.463E-09     1.166E+00  Aqueous 
+  SrHCO3+               -7.238     -7.406     5.777E-08     3.927E-08     6.798E-01  Aqueous 
+  SrCl+                 -6.365     -6.532     4.319E-07     2.936E-07     6.798E-01  Aqueous 
+  SrOH+                -11.964    -12.132     1.086E-12     7.384E-13     6.798E-01  Aqueous 
+  SrSO4(aq)             -6.207     -6.140     6.205E-07     7.236E-07     1.166E+00  Aqueous 
+  AlH3SiO4++           -13.256    -13.872     5.546E-14     1.343E-14     2.422E-01  Aqueous 
+  Si2O2(OH)5-           -7.939     -8.120     1.151E-08     7.594E-09     6.596E-01  Aqueous 
+  Si2O3(OH)4--         -10.741    -11.432     1.817E-11     3.696E-12     2.034E-01  Aqueous 
+  Si3O5(OH)5---        -15.847    -17.474     1.422E-16     3.360E-18     2.363E-02  Aqueous 
+  Si3O6(OH)3---        -15.847    -17.474     1.421E-16     3.358E-18     2.363E-02  Aqueous 
+  Si4O12H4----         -21.508    -23.299     3.105E-22     5.028E-24     1.619E-02  Aqueous 
+  Si4O6(OH)6--         -13.598    -14.289     2.526E-14     5.140E-15     2.034E-01  Aqueous 
+  Si4O7(OH)6----       -21.399    -23.190     3.987E-22     6.457E-24     1.619E-02  Aqueous 
+  Si4O8(OH)4----       -21.400    -23.190     3.985E-22     6.454E-24     1.619E-02  Aqueous 
+  Si6O15------         -31.292    -37.874     5.101E-32     1.336E-38     2.618E-07  Aqueous 
+  SiF6--               -34.521    -35.213     3.010E-35     6.123E-36     2.034E-01  Aqueous 
+
+
+  ****** Partial pressure of gases (bars) *****
+
+ CO2(g)               1.11277382E-03
+ O2(g)                1.00950203E-01
+
+  ****** Saturation state of minerals (log[Q/K] *****
+
+  Forsterite               -6.6484
+  Enstatite(alpha)         -2.5121
+  Anorthite                -3.0127
+  Ferropargasite          -22.3469
+  Anhydrite                -0.9946
+  Clinochlore              10.0524
+  Albite(low)               2.0293
+  Fayalite                 -9.2489
+  Epidote                   7.7251
+  Kaolinite                 3.1038
+  Muscovite(ordered)        8.9438
+  Sudoite                  11.0046
+  Saponite(Mg)              2.7159
+  Scolecite                 1.8479
+  Pyrite                 -254.5484
+  Quartz(alpha)             0.3353
+
+                SPECIATION OF  
+      INITIAL AND BOUNDARY CONDITIONS 
+           SUCCESSFULLY COMPLETED
+
+
+   NZ =            1
+
+  Cell  Distance (m)
+   1    5.000E-01
+
+
+ Number of heterogeneities =            1
+
+
+ Parameters for this run:
+
+  Maximum timestep (yrs) =    1.000E+01
+  Maximum timestep (yrs) =    1.000E-40
+
+ --> Porosity set by "fix_porosity" or "set_porosity" keywords
+ ----> No update of porosity
+ --> Extended Debye-Huckel activity model used
+ --> Activity coefficients only computed
+     at beginning of time step 
+
+  Temperature (C) at J = 1             2.00
+  Temperature gradient (C/m) =         0.06
+
+ Graphics files printed at (yrs)
+   1.0000E-01
+   1.0000E+00
+   2.0000E+00
+   3.5000E+00
+   7.0000E+00
+   1.0500E+01
+   5.0000E+01
+   1.0000E+02
+
+
+  Constant velocities have been specified
+
+   X Darcy velocity =    1000.0000000000000     
+   Y Darcy velocity =    0.0000000000000000     
+
+
+
+
+  Longitudinal dispersivity (m) =     0.0000E+00
+  Transverse dispersivity (m) =       0.0000E+00
+
+
+         INITIALIZATION COMPLETED 
+          STARTING TIMESTEPPING 
+

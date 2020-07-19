@@ -1946,7 +1946,7 @@ Annite
 +----------------------------------------------------
 Anorthite
   label = default
-  type = irreversible
+  type = tst
   rate(25C) = -3.00
   activation = 0.0  (kcal / mole)
   dependence :
@@ -5271,7 +5271,7 @@ PtS2
 +----------------------------------------------------
 Pyrite
   label = default
-  type = irreversible
+  type = tst
   rate(25C) = -3.00
   activation = 0.0  (kcal / mole)
   dependence :
@@ -5334,7 +5334,7 @@ Pyrrhotite
 +----------------------------------------------------
 Quartz(alpha)
   label = default
-  type = irreversible
+  type = tst
   rate(25C) = -3.00
   activation = 0.0  (kcal / mole)
   dependence :
@@ -5509,7 +5509,7 @@ Saponite(K)
 +----------------------------------------------------
 Saponite(Mg)
   label = default
-  type = irreversible
+  type = tst
   rate(25C) = -3.00
   activation = 0.0  (kcal / mole)
   dependence :
@@ -5558,7 +5558,7 @@ Schwertmannite
 +----------------------------------------------------
 Scolecite
   label = default
-  type = irreversible
+  type = tst
   rate(25C) = -3.00
   activation = 0.0  (kcal / mole)
   dependence :
