@@ -3423,7 +3423,7 @@ Ferrotremolite
 +----------------------------------------------------
 FeS(am)
   label = default
-  type = irreversible
+  type = tst
   rate(25C) = -3.00
   activation = 0.0  (kcal / mole)
   dependence :
@@ -4648,7 +4648,7 @@ Montmorillonite(MgMg)
 +----------------------------------------------------
 Montmorillonite(MgNa)
   label = default
-  type = irreversible
+  type = tst
   rate(25C) = -3.00
   activation = 0.0  (kcal / mole)
   dependence :
@@ -5040,7 +5040,7 @@ Paragonite
 +----------------------------------------------------
 Pargasite
   label = default
-  type = irreversible
+  type = tst
   rate(25C) = -3.00
   activation = 0.0  (kcal / mole)
   dependence :
@@ -6006,7 +6006,7 @@ Tobermorite(14A)
 +----------------------------------------------------
 Tremolite
   label = default
-  type = irreversible
+  type = tst
   rate(25C) = -3.00
   activation = 0.0  (kcal / mole)
   dependence :
