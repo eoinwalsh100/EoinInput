@@ -36,7 +36,7 @@
   ****************************************************************
 
 
-  Hydrothermal Fluid Flow in a 1D model                                   
+  Hydrothermal Fluid Flow in a 1D model restart file                      
 
 
 
@@ -457,7 +457,13 @@
   Temperature gradient (C/m) =         0.09
 
  Graphics files printed at (yrs)
-   1.0000E+01
+   1.0000E-01
+   1.0000E+00
+   1.5000E+00
+   2.0000E+00
+   2.5000E+00
+   3.0000E+00
+   3.5000E+00
 
 
   Constant velocities have been specified

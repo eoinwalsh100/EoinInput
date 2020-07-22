@@ -4,7 +4,7 @@ END
  
 RUNTIME
 timestep_max                 10.0
-timestep_init                1.e-55
+timestep_init                1.e-50
 time_tolerance               0.0005
 correction_max               2.0
 debye-huckel                 true
@@ -16,6 +16,8 @@ gimrt                        true
 BurchRateLaw                 false
 database                     Crunch_ThermoddemV1.10_06Jun2017.dbs
 graphics                     tecplot
+save_restart                 Eoininput.rst
+later_inputfiles             Eoininputrestart.in
 END
 
 DISCRETIZATION
@@ -25,7 +27,7 @@ END
  
 OUTPUT
 time_units                   years
-spatial_profile              0.1   1.0   1.5   2.0   2.5   3.0   4.0   5.0
+spatial_profile              10.0
 time_series                  output1.out 1
 time_series                  output2.out 50
 time_series                  output3.out 100
@@ -60,8 +62,15 @@ H4SiO4(aq)                   0.17e-3
 ! SOLID PHASE
 
 !olivine, total 0.23
-Forsterite                   0.11       specific_surface_area    0.1
+Forsterite                   0.11       specific_surface_area    0.379
 Fayalite                     0.11     specific_surface_area    0.1
+Brucite                      1.0E-10  specific_surface_area    6
+
+Lizardite                    1.0E-10   specific_surface_area   7.15
+Chrysotile                   1.0E-10   specific_surface_area   7.15
+
+
+!smectite
 Saponite(Mg)                 1.0E-10   specific_surface_area    136.3
 
 !pyroxenes, total 0.1
@@ -71,8 +80,12 @@ Ferrosilite(alpha)           0.05      specific_surface_area    0.088
 !plagioclase, total 0.14
 Anorthite                    0.07      specific_surface_area    0.645
 Albite(low)                  0.07      specific_surface_area    0.164
+
+!chlorites
 Clinochlore                  1.0E-10   specific_surface_area    7.6
 Sudoite                      1.0E-10   specific_surface_area    7.6
+
+!clays
 Montmorillonite(MgNa)        1.0E-10   specific_surface_area    30.0
 Kaolinite                    1.0E-3    specific_surface_area    13.2
 
@@ -81,7 +94,7 @@ Kaolinite                    1.0E-3    specific_surface_area    13.2
 Tremolite                    0.07      specific_surface_area    0.234
 Pargasite                    0.07      specific_surface_area    0.234
 
-Anhydrite                    1.0E-10   specific_surface_area    0.1
+Anhydrite                    1.0E-10   specific_surface_area    1.72
 
 Epidote                      1.0E-3    specific_surface_area    0.1
 Scolecite                    1.0E-3    specific_surface_area    0.1
@@ -93,29 +106,39 @@ Quartz(alpha)                1.0E-10   specific_surface_area    0.089
 END
 
 MINERALS
-!olivine to smectite
+!olivine 
 Forsterite                   -rate -11.0
 Fayalite                     -rate -11.0
+Brucite                      -rate -11.0
+
+Lizardite                    -rate -11.0
+Chrysotile                   -rate -11.0
+
+!smectite
 Saponite(Mg)                 -rate -11.0
 
 !pyroxenes
 Enstatite(alpha)             -rate -14.0
 Ferrosilite(alpha)           -rate -14.0
 
-!plagioclase
-Anorthite                    -rate -12.0
+!plagioclase to chlorites and clays
+Anorthite                    -rate -11.0
 Albite(low)                  -rate -11.0
+
+!chlorites
 Clinochlore                  -rate -10.0
 Sudoite                      -rate -11.0
-Montmorillonite(MgNa)        -rate -12.0
-Kaolinite                    -rate -12.0
+
+!clays
+Montmorillonite(MgNa)        -rate -11.0
+Kaolinite                    -rate -11.0
 
 !amphiboles
 !Ferropargasite               -rate -14.0
 Tremolite                    -rate -12.0
 Pargasite                    -rate -12.0
 
-Anhydrite                    -rate -9.0
+Anhydrite                    -rate -11.0
 
 Epidote                      -rate -12.0
 Scolecite                    -rate -12.0
