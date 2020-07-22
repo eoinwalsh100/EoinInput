@@ -2296,7 +2296,7 @@ Bromellite
 +----------------------------------------------------
 Brucite
   label = default
-  type = irreversible
+  type = tst
   rate(25C) = -3.00
   activation = 0.0  (kcal / mole)
   dependence :
@@ -2702,7 +2702,7 @@ Chromite
 +----------------------------------------------------
 Chrysotile
   label = default
-  type = irreversible
+  type = tst
   rate(25C) = -3.00
   activation = 0.0  (kcal / mole)
   dependence :
@@ -4312,7 +4312,7 @@ Litharge
 +----------------------------------------------------
 Lizardite
   label = default
-  type = irreversible
+  type = tst
   rate(25C) = -3.00
   activation = 0.0  (kcal / mole)
   dependence :
