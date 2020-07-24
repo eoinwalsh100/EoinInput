@@ -1443,14 +1443,14 @@
 'Monosulfoaluminate'  311.260   5  -12.000 'H+'    2.000 'Al+++'    4.000 'Ca++'    1.000 'SO4--'   18.000 'H2O'      81.6600    73.0643    63.0814    53.8280    44.4332    36.5757    29.5775    22.8382   622.518
 'Monteponite'   15.590   3   -2.000 'H+'    1.000 'Cd++'    1.000 'H2O'      16.7646    15.1033    13.2077    11.4905    9.8071    8.4690    7.3543    6.3714   128.409
 'Monticellite'   51.470   4   -4.000 'H+'    1.000 'Ca++'    1.000 'Mg++'    1.000 'H4SiO4(aq)'      33.4411    30.0859    26.2746    22.8311    19.4474    16.7293    14.4246    12.3498   156.466
-'Montmorillonite(HcCa)'  140.320   6   -6.000 'H+'   -4.000 'H2O'    1.400 'Al+++'    0.300 'Ca++'    0.600 'Mg++'    4.000 'H4SiO4(aq)'      9.5471    6.8865    3.9215    1.2885    -1.3048    -3.4772    -5.4739    -7.4603   370.731
-'Montmorillonite(HcK)'  138.750   6   -6.000 'H+'   -4.000 'H2O'    1.400 'Al+++'    0.600 'K+'    0.600 'Mg++'    4.000 'H4SiO4(aq)'      6.5336    4.4327    2.1124    0.0732    -1.9266    -3.6192    -5.2138    -6.8513   382.167
-'Montmorillonite(HcMg)'  133.270   5   -6.000 'H+'   -4.000 'H2O'    1.400 'Al+++'    0.900 'Mg++'    4.000 'H4SiO4(aq)'      8.6793    5.9797    2.9727    0.3068    -2.3124    -4.5004    -6.5072    -8.5010   365.999
-'Montmorillonite(HcNa)'  137.470   6   -6.000 'H+'   -4.000 'H2O'    1.400 'Al+++'    0.600 'Mg++'    0.600 'Na+'    4.000 'H4SiO4(aq)'      7.8167    5.4552    2.8462    0.5571    -1.6725    -3.5327    -5.2535    -6.9899   372.502
-'Montmorillonite(MgCa)'  135.580   6   -6.000 'H+'   -4.000 'H2O'    1.660 'Al+++'    0.170 'Ca++'    0.340 'Mg++'    4.000 'H4SiO4(aq)'      6.7357    4.2059    1.3800    -1.1390    -3.6377    -5.7532    -7.7205    -9.6955   366.217
-'Montmorillonite(MgK)'  134.690   6   -6.000 'H+'   -4.000 'H2O'    1.660 'Al+++'    0.340 'K+'    0.340 'Mg++'    4.000 'H4SiO4(aq)'      5.0267    2.8141    0.3536    -1.8289    -3.9912    -5.8347    -7.5740    -9.3513   372.697
-'Montmorillonite(MgMg)'  131.580   5   -6.000 'H+'   -4.000 'H2O'    1.660 'Al+++'    0.510 'Mg++'    4.000 'H4SiO4(aq)'      6.2436    3.6916    0.8420    -1.6957    -4.2090    -6.3334    -8.3063    -10.2855   363.536
-'Montmorillonite(MgNa)'  133.960   6   -6.000 'H+'   -4.000 'H2O'    1.660 'Al+++'    0.340 'Mg++'    0.340 'Na+'    4.000 'H4SiO4(aq)'      5.7546    3.3942    0.7701    -1.5541    -3.8467    -5.7853    -7.5961    -9.4295   367.220
+'Montmor(HcCa)'  140.320   6   -6.000 'H+'   -4.000 'H2O'    1.400 'Al+++'    0.300 'Ca++'    0.600 'Mg++'    4.000 'H4SiO4(aq)'      9.5471    6.8865    3.9215    1.2885    -1.3048    -3.4772    -5.4739    -7.4603   370.731
+'Montmor(HcK)'  138.750   6   -6.000 'H+'   -4.000 'H2O'    1.400 'Al+++'    0.600 'K+'    0.600 'Mg++'    4.000 'H4SiO4(aq)'      6.5336    4.4327    2.1124    0.0732    -1.9266    -3.6192    -5.2138    -6.8513   382.167
+'Montmor(HcMg)'  133.270   5   -6.000 'H+'   -4.000 'H2O'    1.400 'Al+++'    0.900 'Mg++'    4.000 'H4SiO4(aq)'      8.6793    5.9797    2.9727    0.3068    -2.3124    -4.5004    -6.5072    -8.5010   365.999
+'Montmor(HcNa)'  137.470   6   -6.000 'H+'   -4.000 'H2O'    1.400 'Al+++'    0.600 'Mg++'    0.600 'Na+'    4.000 'H4SiO4(aq)'      7.8167    5.4552    2.8462    0.5571    -1.6725    -3.5327    -5.2535    -6.9899   372.502
+'Montmor(MgCa)'  135.580   6   -6.000 'H+'   -4.000 'H2O'    1.660 'Al+++'    0.170 'Ca++'    0.340 'Mg++'    4.000 'H4SiO4(aq)'      6.7357    4.2059    1.3800    -1.1390    -3.6377    -5.7532    -7.7205    -9.6955   366.217
+'Montmor(MgK)'  134.690   6   -6.000 'H+'   -4.000 'H2O'    1.660 'Al+++'    0.340 'K+'    0.340 'Mg++'    4.000 'H4SiO4(aq)'      5.0267    2.8141    0.3536    -1.8289    -3.9912    -5.8347    -7.5740    -9.3513   372.697
+'Montmor(MgMg)'  131.580   5   -6.000 'H+'   -4.000 'H2O'    1.660 'Al+++'    0.510 'Mg++'    4.000 'H4SiO4(aq)'      6.2436    3.6916    0.8420    -1.6957    -4.2090    -6.3334    -8.3063    -10.2855   363.536
+'Montmor(MgNa)'  133.960   6   -6.000 'H+'   -4.000 'H2O'    1.660 'Al+++'    0.340 'Mg++'    0.340 'Na+'    4.000 'H4SiO4(aq)'      5.7546    3.3942    0.7701    -1.5541    -3.8467    -5.7853    -7.5961    -9.4295   367.220
 'Moorhouseite'  130.310   3    1.000 'Co++'    1.000 'SO4--'    6.000 'H2O'      -2.1995    -2.1997    -2.1099    -1.8950    -1.5474    -1.2089    -0.9885    -1.0645   263.088
 'MordeniteB(Ca)'  209.800   5   -4.120 'H+'   -4.780 'H2O'    1.030 'Al+++'    0.515 'Ca++'    4.970 'H4SiO4(aq)'      -1.7749    -2.9185    -4.0905    -5.0416    -5.9258    -6.6914    -7.4789    -8.3759   435.856
 'MordeniteJ'  212.400   6   -3.760 'H+'   -4.772 'H2O'    0.940 'Al+++'    0.289 'Ca++'    0.362 'Na+'    5.060 'H4SiO4(aq)'      -3.4603    -4.1809    -4.8614    -5.3697    -5.8378    -6.3008    -6.8665    -7.5979   441.850
@@ -2156,28 +2156,28 @@ Bassanite
 +----------------------------------------------------
 Beidellite(Ca)
   label = default
-  type = irreversible
+  type = tst
   rate(25C) = -3.00
   activation = 0.0  (kcal / mole)
   dependence :
 +----------------------------------------------------
 Beidellite(K)
   label = default
-  type = irreversible
+  type = tst
   rate(25C) = -3.00
   activation = 0.0  (kcal / mole)
   dependence :
 +----------------------------------------------------
 Beidellite(Mg)
   label = default
-  type = irreversible
+  type = tst
   rate(25C) = -3.00
   activation = 0.0  (kcal / mole)
   dependence :
 +----------------------------------------------------
 Beidellite(Na)
   label = default
-  type = irreversible
+  type = tst
   rate(25C) = -3.00
   activation = 0.0  (kcal / mole)
   dependence :
@@ -3745,7 +3745,7 @@ Hellyerite
 +----------------------------------------------------
 Hematite
   label = default
-  type = irreversible
+  type = tst
   rate(25C) = -3.00
   activation = 0.0  (kcal / mole)
   dependence :
@@ -4375,7 +4375,7 @@ Magnetite
 +----------------------------------------------------
 Magnetite(am)
   label = default
-  type = irreversible
+  type = tst
   rate(25C) = -3.00
   activation = 0.0  (kcal / mole)
   dependence :
@@ -4597,56 +4597,56 @@ Monticellite
   activation = 0.0  (kcal / mole)
   dependence :
 +----------------------------------------------------
-Montmorillonite(HcCa)
+Montmor(HcCa)
   label = default
   type = irreversible
   rate(25C) = -3.00
   activation = 0.0  (kcal / mole)
   dependence :
 +----------------------------------------------------
-Montmorillonite(HcK)
+Montmor(HcK)
   label = default
   type = irreversible
   rate(25C) = -3.00
   activation = 0.0  (kcal / mole)
   dependence :
 +----------------------------------------------------
-Montmorillonite(HcMg)
+Montmor(HcMg)
   label = default
   type = irreversible
   rate(25C) = -3.00
   activation = 0.0  (kcal / mole)
   dependence :
 +----------------------------------------------------
-Montmorillonite(HcNa)
+Montmor(HcNa)
   label = default
   type = irreversible
   rate(25C) = -3.00
   activation = 0.0  (kcal / mole)
   dependence :
 +----------------------------------------------------
-Montmorillonite(MgCa)
+Montmor(MgCa)
   label = default
-  type = irreversible
+  type = tst
   rate(25C) = -3.00
   activation = 0.0  (kcal / mole)
   dependence :
 +----------------------------------------------------
-Montmorillonite(MgK)
+Montmor(MgK)
   label = default
-  type = irreversible
+  type = tst
   rate(25C) = -3.00
   activation = 0.0  (kcal / mole)
   dependence :
 +----------------------------------------------------
-Montmorillonite(MgMg)
+Montmor(MgMg)
   label = default
-  type = irreversible
+  type = tst
   rate(25C) = -3.00
   activation = 0.0  (kcal / mole)
   dependence :
 +----------------------------------------------------
-Montmorillonite(MgNa)
+Montmor(MgNa)
   label = default
   type = tst
   rate(25C) = -3.00
@@ -5467,7 +5467,7 @@ Sanidine
 +----------------------------------------------------
 Saponite(Ca)
   label = default
-  type = irreversible
+  type = tst
   rate(25C) = -3.00
   activation = 0.0  (kcal / mole)
   dependence :
@@ -5502,7 +5502,7 @@ Saponite(FeNa)
 +----------------------------------------------------
 Saponite(K)
   label = default
-  type = irreversible
+  type = tst
   rate(25C) = -3.00
   activation = 0.0  (kcal / mole)
   dependence :
@@ -5516,7 +5516,7 @@ Saponite(Mg)
 +----------------------------------------------------
 Saponite(Na)
   label = default
-  type = irreversible
+  type = tst
   rate(25C) = -3.00
   activation = 0.0  (kcal / mole)
   dependence :

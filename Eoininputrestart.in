@@ -5,7 +5,7 @@ END
 RUNTIME
 timestep_max                 10.0
 timestep_init                1.e-50
-time_tolerance               0.0005
+time_tolerance               0.001
 correction_max               2.0
 debye-huckel                 true
 database_sweep               false
@@ -21,15 +21,15 @@ END
 
 DISCRETIZATION
 distance_units               meters
-xzones                       100    35
+xzones                       200    17.5
 END
  
 OUTPUT
 time_units                   years
-spatial_profile              0.1   1.0   1.5   2.0   2.5   3.0   3.5
+spatial_profile              0.1   0.5   1.0   1.5   2.0  2.25  2.5  2.75 3.0   3.5
 time_series                  output1.out 1
-time_series                  output2.out 50
-time_series                  output3.out 100
+time_series                  output2.out 100
+time_series                  output3.out 200
 time_series_print            pH  Ca++  SO4--  Mg++  H4SiO4(aq)  K+ O2(aq) Fe++  Al+++
 END
 
@@ -68,9 +68,18 @@ Brucite                      1.0E-10  specific_surface_area    6
 Lizardite                    1.0E-10   specific_surface_area   7.15
 Chrysotile                   1.0E-10   specific_surface_area   7.15
 
+Hematite                     1.0E-10   specific_surface_area   6.0
+Magnetite(am)                1.0E-10   specific_surface_area   5.0
 
 !smectite
+Saponite(Ca)                 1.0E-10   specific_surface_area    136.3
+Saponite(K)                  1.0E-10   specific_surface_area    136.3
 Saponite(Mg)                 1.0E-10   specific_surface_area    136.3
+Saponite(Na)                 1.0E-10   specific_surface_area    136.3
+Beidellite(Ca)               1.0E-10   specific_surface_area    136.3
+Beidellite(K)                1.0E-10   specific_surface_area    136.3
+Beidellite(Mg)               1.0E-10   specific_surface_area    136.3
+Beidellite(Na)               1.0E-10   specific_surface_area    136.3
 
 !pyroxenes, total 0.1
 Enstatite(alpha)             0.05      specific_surface_area    0.125
@@ -85,7 +94,10 @@ Clinochlore                  1.0E-10   specific_surface_area    7.6
 Sudoite                      1.0E-10   specific_surface_area    7.6
 
 !clays
-Montmorillonite(MgNa)        1.0E-10   specific_surface_area    30.0
+Montmor(MgCa)                1.0E-10   specific_surface_area    30.0
+Montmor(MgK)                 1.0E-10   specific_surface_area    30.0
+Montmor(MgMg)                1.0E-10   specific_surface_area    30.0
+Montmor(MgNa)                1.0E-10   specific_surface_area    30.0
 Kaolinite                    1.0E-3    specific_surface_area    13.2
 
 !amphiboles, total 0.14
@@ -95,8 +107,8 @@ Pargasite                    0.07      specific_surface_area    0.234
 
 Anhydrite                    1.0E-10   specific_surface_area    1.72
 
-Epidote                      1.0E-3    specific_surface_area    0.1
-Scolecite                    1.0E-3    specific_surface_area    0.1
+Epidote                      1.0E-2    specific_surface_area    0.1
+Scolecite                    1.0E-10    specific_surface_area    0.1
 
 Pyrite                       1.0E-10   specific_surface_area    0.149
 FeS(am)                      1.0E-10   specific_surface_area    0.149
@@ -106,44 +118,58 @@ END
 
 MINERALS
 !olivine 
-Forsterite                   -rate -11.0
-Fayalite                     -rate -11.0
-Brucite                      -rate -11.0
+Forsterite                   -rate -12.0
+Fayalite                     -rate -12.0
+Brucite                      -rate -8.0
 
-Lizardite                    -rate -11.0
-Chrysotile                   -rate -11.0
+!serpentine
+Lizardite                    -rate -8.0
+Chrysotile                   -rate -8.0
 
-!smectite
-Saponite(Mg)                 -rate -11.0
+Hematite                     -rate -10.0
+Magnetite(am)                -rate -10.0
+
+!smectites
+Saponite(Ca)                 -rate -17.0
+Saponite(K)                  -rate -15.0
+Saponite(Mg)                 -rate -16.0
+Saponite(Na)                 -rate -15.0
+Beidellite(Ca)               -rate -15.0
+Beidellite(K)                -rate -16.0
+Beidellite(Mg)               -rate -15.0
+Beidellite(Na)               -rate -15.0
 
 !pyroxenes
 Enstatite(alpha)             -rate -14.0
 Ferrosilite(alpha)           -rate -14.0
 
 !plagioclase to chlorites and clays
-Anorthite                    -rate -11.0
-Albite(low)                  -rate -11.0
+Anorthite                    -rate -12.0
+Albite(low)                  -rate -12.0
 
 !chlorites
-Clinochlore                  -rate -10.0
-Sudoite                      -rate -11.0
+Clinochlore                  -rate -12.0
+Sudoite                      -rate -12.0
 
 !clays
-Montmorillonite(MgNa)        -rate -11.0
-Kaolinite                    -rate -11.0
+Montmor(MgCa)                -rate -15.0
+Montmor(MgK)                 -rate -15.0
+Montmor(MgMg)                -rate -15.0
+Montmor(MgNa)                -rate -15.0
+Kaolinite                    -rate -15.0
 
 !amphiboles
 !Ferropargasite               -rate -14.0
 Tremolite                    -rate -12.0
 Pargasite                    -rate -12.0
 
-Anhydrite                    -rate -11.0
+Anhydrite                    -rate -10.0
 
-Epidote                      -rate -12.0
-Scolecite                    -rate -12.0
+Epidote                      -rate -11.0
+Scolecite                    -rate -11.0
 
-Pyrite                       -rate -10.0
-FeS(am)                      -rate -10.0
+Pyrite                       -rate -11.0
+FeS(am)                      -rate -11.0
 
 Quartz(alpha)                -rate -13.0
 END
@@ -154,7 +180,7 @@ read_PorosityFile             porosityfileeoininput.dat
 END
 
 INITIAL_CONDITIONS
-Seawater                     1-100
+Seawater                     1-200
 END
  
 TEMPERATURE
