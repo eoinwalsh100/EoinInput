@@ -28,7 +28,6 @@ END
 OUTPUT
 time_units                   years
 spatial_profile              11
-time_series_print            pH  Ca++  SO4--  Mg++  H4SiO4(aq)  K+ O2(aq) Fe++  Al+++
 END
 
 CONDITION                    Seawater
@@ -41,6 +40,12 @@ Al+++                        0.037e-6
 Fe++                         2.600e-8
 Fe+++                        1.000e-13
 Ca++                         10.4e-03
+Li+                          2.46E-5
+Rb+                          1.40E-6
+Zn++                         7.6E-8
+Mn++                         7.3E-9
+Cu++                         1.42E-9
+Cu+                          1.42E-9
 K+                           1.200e-02
 F-                           6.8E-5
 Ba++                         0.2E-6
@@ -56,6 +61,7 @@ Methane(aq)                  1e-08
 Cl-                          charge
 NO3-                         3.9e-5
 H4SiO4(aq)                   0.17e-3
+Ti(OH)4(aq)                  2.09E-9
 ! SOLID PHASE
 
 !olivine, total 0.23
@@ -112,24 +118,36 @@ Pyrite                       1.0E-10   specific_surface_area    0.149
 FeS(am)                      1.0E-10   specific_surface_area    0.149
 
 Quartz(alpha)                1.0E-10   specific_surface_area    0.089
+
+!Trace metal minerals
+Titanite                     1.0E-4    specific_surface_area    0.1
+Rutile                       1.0E-4    specific_surface_area    0.1
+Barite                       1.0E-4    specific_surface_area    3.2
+Fluorite                     1.0E-4    specific_surface_area    0.1
+Spessartine(alpha)           1.0E-3    specific_surface_area    0.1
+Andradite                    1.0E-4    specific_surface_area    0.1
+Celestite                    1.0E-4    specific_surface_area    0.1
+Zincite                      1.0E-3    specific_surface_area    0.1
+Chalcocyanite                1.0E-4    specific_surface_area    0.1
+Chalcocite(alpha)            1.0E-4    specific_surface_area    0.1
 END
 
 MINERALS
 !olivine 
 Forsterite                   -rate -12.0
 Fayalite                     -rate -12.0
-Brucite                      -rate -8.0
+Brucite                      -rate -12.0
 
 !serpentine
-Lizardite                    -rate -8.0
-Chrysotile                   -rate -8.0
+Lizardite                    -rate -12.0
+Chrysotile                   -rate -12.0
 
-Hematite                     -rate -10.0
-Magnetite(am)                -rate -10.0
+Hematite                     -rate -11.0
+Magnetite(am)                -rate -11.0
 
 !smectites
-Saponite(Ca)                 -rate -17.0
-Saponite(K)                  -rate -15.0
+Saponite(Ca)                 -rate -16.0
+Saponite(K)                  -rate -16.0
 Saponite(Mg)                 -rate -16.0
 Saponite(Na)                 -rate -15.0
 Beidellite(Ca)               -rate -15.0
@@ -146,13 +164,13 @@ Anorthite                    -rate -12.0
 Albite(low)                  -rate -12.0
 
 !chlorites
-Clinochlore                  -rate -12.0
-Sudoite                      -rate -12.0
+Clinochlore                  -rate -11.0
+Sudoite                      -rate -11.0
 
 !clays
 
 Montmor(MgCa)                -rate -15.0
-Montmor(MgK)                 -rate -15.0
+Montmor(MgK)                 -rate -16.0
 Montmor(MgMg)                -rate -15.0
 Montmor(MgNa)                -rate -15.0
 Kaolinite                    -rate -15.0
@@ -171,6 +189,18 @@ Pyrite                       -rate -11.0
 FeS(am)                      -rate -11.0
 
 Quartz(alpha)                -rate -13.0
+
+!Trace metal minerals
+Titanite                     -rate -15.0
+Rutile                       -rate -15.0
+Barite                       -rate -13.0
+Fluorite                     -rate -15.0
+Spessartine(alpha)           -rate -11.0
+Andradite                    -rate -15.0
+Celestite                    -rate -16.0
+Zincite                      -rate -12.0
+Chalcocyanite                -rate -16.0
+Chalcocite(alpha)            -rate -16.0
 END
  
 POROSITY
@@ -194,19 +224,22 @@ CO2(aq)
 !NH4+
 Mg++
 Ca++
-!Ca44++
 Fe++
 Fe+++
 Ba++
 Sr++
+Li+
+Rb+
+Mn++
+Zn++
+Cu++
+Cu+
 Cl-
 F-
 K+
 HS-  
-!H2S34(aq)
 Na+
 SO4--
-!S34O4--
 O2(aq)
 B(OH)3(aq)
 HPO4-- 
@@ -216,13 +249,14 @@ NO3-
 !C5H7O2NSO4
 !Tracer
 H4SiO4(aq)
+
+Ti(OH)4(aq)
 END
  
 SECONDARY_SPECIES 
 HNO3(aq)
 Al(OH)2+                                                                
 !Al(SO4)2-
-!Al(S34O4)2-
 AlO2-                                                                   
 AlOH++
 BaHCO3+
@@ -231,16 +265,10 @@ BaCO3(aq)
 BaOH+
 HCO3-    
 CO3--                                                                    
-CaCl+
-!Ca44Cl+                                                                   
+CaCl+                                                                
 CaCl2(aq)
-!Ca44Cl2(aq)
-CaOH+  
-!Ca44OH+                                                                 
-CaSO4(aq)  
-!CaS34O4(aq)  
-!Ca44SO4(aq)                                                              
-!Ca44S34O4(aq)                                                              
+CaOH+                                                                 
+CaSO4(aq)                                                              
 !Fe(OH)2(aq)                                                             
 !Fe(OH)3-                                                                
 !Fe(OH)4--                                                               
@@ -251,6 +279,10 @@ FeOH+
 FeSO4(aq)    
 !FeS34O4(aq)    
 OH-     
+LiCl(aq)
+LiOH(aq)
+RbCl(aq)
+RbOH(aq)
 
 S2O3--
 H2S(aq)
@@ -341,4 +373,3 @@ END
 !distance_units              meters
 !erode_x                     0.00015
 !END
-
